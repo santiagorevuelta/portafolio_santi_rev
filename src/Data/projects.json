@@ -1,0 +1,20 @@
+[
+    {
+        "key": "saire",
+        "title": "SAIRE",
+        "description": "Sistema para calcular valorización de activos electricos",
+        "img": "saire",
+        "typeProject": "web",
+        "typeInfoProject": "Info",
+        "projectURL": "#work"
+    },
+    {
+        "key": "togo",
+        "title": "To Go",
+        "description": "Aplicación movil con carrito de compra desarrollada en Java para Android",
+        "img": "togo",
+        "typeProject": "movil",
+        "typeInfoProject": "Info",
+        "projectURL": "#work"
+    }
+]

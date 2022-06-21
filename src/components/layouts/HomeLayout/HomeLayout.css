@@ -1,0 +1,170 @@
+/*=============== HOME ===============*/
+.home__container{
+  position: relative;
+  row-gap: 4.5rem;
+  padding-top: 2rem;
+}
+
+.home__data{
+  text-align: center;
+}
+
+.home__greeting,
+.home__education{
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.home__greeting{
+  display: block;
+  color: var(--title-color);
+  margin-bottom: .25rem;
+}
+
+.home__education{
+  color: var(--text-color);
+  margin-bottom: 2.5rem;
+}
+
+.home__name{
+  font-size: var(--biggest-font-size);
+}
+
+.home__img{
+  width: 160px;
+}
+
+.home__handle{
+  justify-self: center;
+  width: 190px;
+  height: 293px;
+  background: linear-gradient(180deg,
+              hsla(var(--first-hue), var(--sat), var(--lig), 1),
+              hsla(var(--first-hue), var(--sat), var(--lig), .2)
+          );
+  border-radius: 10rem 10rem 1rem 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.home__button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.home__social,
+.home__scroll{
+  position: absolute;
+}
+
+.home__social{
+  bottom: 5rem;
+  left: 0;
+  display: grid;
+  row-gap: .5rem;
+}
+
+.home__social-link{
+  width: max-content;
+  background-color: var(--container-color);
+  color: var(--first-color);
+  padding: .25rem;
+  border-radius: .25rem;
+  display: flex;
+  font-size: 1rem;
+  transition: .4s;
+}
+
+.home__social-link:hover{
+  background-color: var(--first-color);
+  color: #fff;
+}
+
+.home__social::after{
+  content: '';
+  width: 32px;
+  height: 2px;
+  background-color: var(--first-color);
+  transform: rotate(90deg) translate(16px, 3px);
+}
+
+.home__scroll{
+  color: var(--first-color);
+  right: -1.5rem;
+  bottom: 4rem;
+  display: grid;
+  row-gap: 2.25rem;
+  justify-items: center;
+}
+
+.home__scroll-icon{
+  font-size: 1.25rem;
+}
+
+.home__scroll-name{
+  font-size: var(--smaller-font-size);
+  transform: rotate(-90deg);
+}
+
+
+/*========== 
+    Color changes in some parts of the website, in light theme
+==========*/
+.light-theme .home__social-link{
+  box-shadow: 0 2px 8px hsl(var(--second-hue), 48%, 8%, .1);
+}
+
+.light-theme .home__social::after{
+  background-color: var(--title-color);
+}
+
+.light-theme .home__social-link,
+.light-theme .home__scroll{
+  color: var(--title-color);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .home__button{
+    flex-direction: column;
+  }
+  .home__handle{
+    width: 150px;
+    height: 253px;
+  }
+  .home__img{
+    width: 130px;
+  }
+}
+/* For medium devices */
+@media screen and (min-width: 576px) {
+   
+}
+@media screen and (min-width: 767px) {
+  
+}
+/* For large devices */
+@media screen and (min-width: 992px) {
+  .home__handle{
+    width: 290px;
+    height: 400px;
+  }
+  .home__img{
+    width: 220px;
+  }
+  .home__social-link{
+    padding: .4rem;
+    font-size: 1.25rem;
+  }
+  .home__social::after{
+    transform: rotate(90deg) translate(16px, 0);
+  }
+  .home__scroll-icon{
+    font-size: 2rem;
+  }
+}
