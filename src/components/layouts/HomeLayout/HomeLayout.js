@@ -11,23 +11,23 @@ export default function HomeLayout(){
                 <div className="home__container container grid">
                     <div className="home__data">
                         <span className="home__greeting">Hola, soy</span>
-                        <h1 className="home__name">Ivan Rojas</h1>
+                        <h1 className="home__name">Santiago Revuelta</h1>
                         <h3 className="home__education">Desarrollador Full Stack</h3>
                         <div className="home__button">
-                            <a download="" href="assets/pdf/CV-Ivan-Rojas.pdf" className="button button--ghost">
+                            <a download="" href="assets/pdf/" className="button button--ghost">
                                 Descargar CV
                             </a>
                             <a href="#about" className="button">Acerca de mí</a>
                         </div>
-                    </div>                    
+                    </div>
                     <div className="home__handle">
-                        <img src="assets/img/perfil.png" alt="" className="home__img"/>
+                        <img src="assets/img/" alt="" className="home__img"/>
                     </div>
                     <div className="home__social">
-                        <a href="https://www.linkedin.com/in/ifrojas27/" target="_blank" className="home__social-link" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/santiago-revuelta-rodriguez-8931a41a6/" target="_blank" className="home__social-link" rel="noreferrer">
                             <i className='bx bxl-linkedin-square' ></i>
                         </a>
-                        <a href="https://github.com/ifrojas" target="_blank" className="home__social-link" rel="noreferrer">
+                        <a href="https://github.com/santiagorevuelta" target="_blank" className="home__social-link" rel="noreferrer">
                             <i className='bx bxl-github' ></i>
                         </a>
                         {/* <a href="https://www.dribble.com/" target="_blank" className="home__social-link" rel="noreferrer">

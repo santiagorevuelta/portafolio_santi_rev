@@ -5,7 +5,7 @@ export default function AboutLayout(){
                 <span className="section__subtitle">Presentación</span>
                 <h2 className="section__title">Acerca de mí</h2>
                 <div className="about__container container grid">
-                    <img src="assets/img/about.jpg" alt="" className="about__img"/>
+                    <img src="assets/img/" alt="" className="about__img"/>
                     <div className="about__data">
                         <div className="about__info">
                             <div className="about__box">

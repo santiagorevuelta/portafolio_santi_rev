@@ -18,7 +18,7 @@ export default function SkillLayout(){
                                         <span className="skills__level">Intermedio</span>
                                     </div>
                                 </div>
-                                
+
                                 <div className="skills__data">
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
@@ -35,8 +35,8 @@ export default function SkillLayout(){
                                     </div>
                                 </div>
 
-                               
-                                
+
+
                             </div>
 
                             <div className="skills__group">
@@ -47,7 +47,7 @@ export default function SkillLayout(){
                                         <span className="skills__level">Intermedio</span>
                                     </div>
                                 </div>
-                                
+
                                 <div className="skills__data">
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
@@ -59,11 +59,11 @@ export default function SkillLayout(){
                                 <div className="skills__data">
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
-                                        <h3 className="skills__name">Git</h3>
+                                        <h3 className="skills__name">React Native</h3>
                                         <span className="skills__level">Intermedio</span>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ export default function SkillLayout(){
                                 <div className="skills__data">
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
-                                        <h3 className="skills__name">PHP</h3>
+                                        <h3 className="skills__name">PostgresSQL</h3>
                                         <span className="skills__level">Intermedio</span>
                                     </div>
                                 </div>
@@ -96,7 +96,7 @@ export default function SkillLayout(){
                                         <span className="skills__level">Intermedio</span>
                                     </div>
                                 </div>
-                                
+
                             </div>
 
                             <div className="skills__group">
@@ -119,11 +119,11 @@ export default function SkillLayout(){
                                 <div className="skills__data">
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
-                                        <h3 className="skills__name">ASP .NET</h3>
-                                        <span className="skills__level">Avanzado</span>
+                                        <h3 className="skills__name">Adonis</h3>
+                                        <span className="skills__level">Intermedio</span>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>

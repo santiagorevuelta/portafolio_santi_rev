@@ -10,7 +10,7 @@ export default function ContactLayout(){
     const [project, setProject] = useState("");
     const notify = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_ifrojas27', 'template_9fgiykm', e.target, 'aATkyG87zBArxHHlp')
+        emailjs.sendForm('service_santirev', 'template_9fgiykm', e.target, 'aATkyG87zBArxHHlp')
         .then((result) => {
             toast('Recibí la información, te contactaré pronto!', {
                 position: "top-center",
@@ -37,7 +37,7 @@ export default function ContactLayout(){
         setName('')
         setEmail('')
         setProject('')
-        
+
     }
     return (
         <section className="contact section" id="contact">
@@ -52,8 +52,8 @@ export default function ContactLayout(){
                             <div className="contact__card">
                                 <i className='bx bx-mail-send contact__card-icon' ></i>
                                 <h3 className="contact__card-title">Email</h3>
-                                <span className="contact__card-data">ivanfrojas27@gmail.com</span>
-                                <a href="mailto:ivanfrojas27@gmail.com" target="_blank" className="contact__button" rel="noreferrer">
+                                <span className="contact__card-data">santiagorevuel@gmail.com</span>
+                                <a href="mailto:santiagorevuel@gmail.com" target="_blank" className="contact__button" rel="noreferrer">
                                     Escribeme <i className='bx bx-right-arrow-alt contact__button-icon' ></i>
                                 </a>
                             </div>
@@ -61,20 +61,12 @@ export default function ContactLayout(){
                             <div className="contact__card">
                                 <i className='bx bxl-whatsapp contact__card-icon' ></i>
                                 <h3 className="contact__card-title">Whatsapp</h3>
-                                <span className="contact__card-data">+57 3229140284</span>
-                                <a href="https://api.whatsapp.com/send?phone=573229140284&text=Hello, more information!" target="_blank" className="contact__button" rel="noreferrer">
+                                <span className="contact__card-data">+57 3187260291</span>
+                                <a href="https://api.whatsapp.com/send?phone=573187260291&text=Hello, more information!" target="_blank" className="contact__button" rel="noreferrer">
                                     Escribeme <i className='bx bx-right-arrow-alt contact__button-icon' ></i>
                                 </a>
                             </div>
 
-                            <div className="contact__card">
-                                <i className='bx bxl-messenger contact__card-icon' ></i>
-                                <h3 className="contact__card-title">Messenger</h3>
-                                <span className="contact__card-data">ifrojas</span>
-                                <a href="https://m.me/ifrojas" target="_blank" className="contact__button" rel="noreferrer">
-                                    Escribeme <i className='bx bx-right-arrow-alt contact__button-icon' ></i>
-                                </a>
-                            </div>
                         </div>
                     </div>
 
@@ -83,17 +75,17 @@ export default function ContactLayout(){
                         <form action="" autoComplete="off" id="form_contact" className="contact__form" onSubmit={notify}>
                             <div className="contact__form-div">
                                 <label htmlFor="" className="contact__form-tag">Nombres</label>
-                                <input name="from_name" id="from_name" type="text" placeholder="Ingresa tu nombre" className="contact__form-input" value={name} required onChange={e => setName(e.target.value)}/>                                
+                                <input name="from_name" id="from_name" type="text" placeholder="Ingresa tu nombre" className="contact__form-input" value={name} required onChange={e => setName(e.target.value)}/>
                             </div>
 
                             <div className="contact__form-div">
                                 <label htmlFor="" className="contact__form-tag">Email</label>
-                                <input name="from_email" id="from_email" type="email" placeholder="Ingresa tu Email" className="contact__form-input"  value={email} onChange={e => setEmail(e.target.value)}/>                                
+                                <input name="from_email" id="from_email" type="email" placeholder="Ingresa tu Email" className="contact__form-input"  value={email} onChange={e => setEmail(e.target.value)}/>
                             </div>
 
                             <div className="contact__form-div contact__form-area">
                                 <label htmlFor="" className="contact__form-tag">Proyecto</label>
-                                <textarea name="from_message_contact" id="from_message_contact" cols="30" rows="10" placeholder="Escribe sobre tu proyecto" className="contact__form-input" required value={project} onChange={e => setProject(e.target.value)}></textarea>                                
+                                <textarea name="from_message_contact" id="from_message_contact" cols="30" rows="10" placeholder="Escribe sobre tu proyecto" className="contact__form-input" required value={project} onChange={e => setProject(e.target.value)}></textarea>
                             </div>
 
                             <button type='submit' className="button">Enviar Mensaje</button>

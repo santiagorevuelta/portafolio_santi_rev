@@ -1,18 +1,18 @@
 import SelectTheme from './SelectTheme'
 import ScrollActive from './ScrollActive'
 import './HeaderLayout.css'
-export default function HeaderLayout(){    
-    ScrollActive()  
+export default function HeaderLayout(){
+    ScrollActive()
     const changeTheme = (event) =>{
         SelectTheme()
     }
     return (
         <header className="header" id="header">
             <nav className="nav container">
-                <a href="#" className="nav__logo">Ifrojas</a>
+                <a href="#" className="nav__logo">Santi.Rev</a>
 
                 <div className="nav__menu">
-                    <ul className="nav__list"> 
+                    <ul className="nav__list">
                         <li className="nav__item">
                             <a href="#home" className="nav__link active-link">
                                 <i className='bx bx-home-alt'></i>

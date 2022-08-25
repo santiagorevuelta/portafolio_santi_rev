@@ -1,3 +1,4 @@
+
 import './DetailCard.css'
 export default function DetailCard({title, typeProject, typeInfoProject, projectURL, img}){
     return(
@@ -32,7 +33,7 @@ export default function DetailCard({title, typeProject, typeInfoProject, project
                                     Procedimientos modelados eficientemente.
                                 </p>
                             </li>
-                            
+
                             <li className="services__modal-item">
                                 <i className='bx bx-check services__modal-icon' ></i>
                                 <p className="services__modal-info">

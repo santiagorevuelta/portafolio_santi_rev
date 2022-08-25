@@ -1,17 +1,17 @@
 [
     {
-        "key": "saire",
-        "title": "SAIRE",
-        "description": "Sistema para calcular valorización de activos electricos",
+        "key": "lorem",
+        "title": "lorem",
+        "description": "lorem",
         "img": "saire",
         "typeProject": "web",
         "typeInfoProject": "Info",
         "projectURL": "#work"
     },
     {
-        "key": "togo",
-        "title": "To Go",
-        "description": "Aplicación movil con carrito de compra desarrollada en Java para Android",
+        "key": "lorem1",
+        "title": "lorem",
+        "description": "Aplicación movil",
         "img": "togo",
         "typeProject": "movil",
         "typeInfoProject": "Info",
