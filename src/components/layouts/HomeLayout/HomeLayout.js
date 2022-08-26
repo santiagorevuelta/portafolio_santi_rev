@@ -14,14 +14,14 @@ export default function HomeLayout(){
                         <h1 className="home__name">Santiago Revuelta</h1>
                         <h3 className="home__education">Desarrollador Full Stack</h3>
                         <div className="home__button">
-                            <a download="" href="assets/pdf/" className="button button--ghost">
+                            <a download="" href="assets/pdf/HV_Santiago_Revuelta.pdf" className="button button--ghost">
                                 Descargar CV
                             </a>
                             <a href="#about" className="button">Acerca de mí</a>
                         </div>
                     </div>
                     <div className="home__handle">
-                        <img src="assets/img/" alt="" className="home__img"/>
+                        <img src="assets/img/logo.png" alt="" className="home__img"/>
                     </div>
                     <div className="home__social">
                         <a href="https://www.linkedin.com/in/santiago-revuelta-rodriguez-8931a41a6/" target="_blank" className="home__social-link" rel="noreferrer">

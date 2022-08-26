@@ -10,7 +10,7 @@ export default function ContactLayout(){
     const [project, setProject] = useState("");
     const notify = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_santirev', 'template_9fgiykm', e.target, 'aATkyG87zBArxHHlp')
+        emailjs.sendForm('service_santirev', 'template_enirlk4', e.target, 'ptX2eJJVzkGvb0FfF')
         .then((result) => {
             toast('Recibí la información, te contactaré pronto!', {
                 position: "top-center",

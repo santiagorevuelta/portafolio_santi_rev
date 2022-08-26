@@ -47,7 +47,7 @@ export default function ServiceLayout(){
                                     Desarrollo de paginas web.
                                 </p>
                             </li>
-                            
+
                             <li className="services__modal-item">
                                 <i className='bx bx-check services__modal-icon' ></i>
                                 <p className="services__modal-info">
@@ -97,13 +97,6 @@ export default function ServiceLayout(){
                                     Procedimientos modelados eficientemente.
                                 </p>
                             </li>
-                            
-                            <li className="services__modal-item">
-                                <i className='bx bx-check services__modal-icon' ></i>
-                                <p className="services__modal-info">
-                                    Protección de Inyección SQL.
-                                </p>
-                            </li>
 
                         </ul>
                     </div>
@@ -138,10 +131,10 @@ export default function ServiceLayout(){
                             <li className="services__modal-item">
                                 <i className='bx bx-check services__modal-icon' ></i>
                                 <p className="services__modal-info">
-                                    Servicios AWS.
+                                    Servicios AZURE.
                                 </p>
                             </li>
-                            
+
                             <li className="services__modal-item">
                                 <i className='bx bx-check services__modal-icon' ></i>
                                 <p className="services__modal-info">
@@ -152,7 +145,7 @@ export default function ServiceLayout(){
                             <li className="services__modal-item">
                                 <i className='bx bx-check services__modal-icon' ></i>
                                 <p className="services__modal-info">
-                                    Pasarelas de pago.
+                                    DOCKER
                                 </p>
                             </li>
 
@@ -161,6 +154,6 @@ export default function ServiceLayout(){
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
     )
 }
