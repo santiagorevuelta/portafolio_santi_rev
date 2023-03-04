@@ -22,20 +22,20 @@ export default function WorkLayout(){
 
                 <div className="work__container container grid">
                     {
-                        projects.map(project =>  
-                        <CardWork key={project.key} 
-                                  title={project.title} 
+                        projects.map(project =>
+                        <CardWork key={project.key}
+                                  title={project.title}
                                   img={project.img}
-                                  typeProject={project.typeProject} 
+                                  typeProject={project.typeProject}
                                   typeInfoProject={project.typeInfoProject}
                                   projectURL={project.projectURL}/>
                         )
                     }
                 </div>
-                {
-                        projects.map(project =>  
-                        <ModalWorkLayout key={project.key} 
-                                  title={project.title} 
+                 {
+                        projects.map(project =>
+                        <ModalWorkLayout key={project.key}
+                                  title={project.title}
                                   description={project.description}
                                   typeProject={project.typeProject} />
                         )

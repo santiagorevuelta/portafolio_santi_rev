@@ -9,8 +9,26 @@
         "projectURL": "#work"
     },
     {
-        "key": "lorem1",
+        "key": "lorem",
         "title": "lorem",
+        "description": "lorem",
+        "img": "saire",
+        "typeProject": "web",
+        "typeInfoProject": "Info",
+        "projectURL": "#work"
+    },
+    {
+        "key": "susperapp",
+        "title": "Super App",
+        "description": "Aplicación movil",
+        "img": "togo",
+        "typeProject": "movil",
+        "typeInfoProject": "Info",
+        "projectURL": "#work"
+    },
+    {
+        "key": "reportesmed",
+        "title": "ReportesMed",
         "description": "Aplicación movil",
         "img": "togo",
         "typeProject": "movil",

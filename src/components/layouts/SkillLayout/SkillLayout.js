@@ -34,9 +34,6 @@ export default function SkillLayout(){
                                         <span className="skills__level">Avanzado</span>
                                     </div>
                                 </div>
-
-
-
                             </div>
 
                             <div className="skills__group">
@@ -60,7 +57,7 @@ export default function SkillLayout(){
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
                                         <h3 className="skills__name">React Native</h3>
-                                        <span className="skills__level">Intermedio</span>
+                                        <span className="skills__level">Avanzado</span>
                                     </div>
                                 </div>
 
@@ -77,7 +74,7 @@ export default function SkillLayout(){
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
                                         <h3 className="skills__name">PostgresSQL</h3>
-                                        <span className="skills__level">Intermedio</span>
+                                        <span className="skills__level">Avanzado</span>
                                     </div>
                                 </div>
 
@@ -104,7 +101,7 @@ export default function SkillLayout(){
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
                                         <h3 className="skills__name">Oracle</h3>
-                                        <span className="skills__level">Intermedio</span>
+                                        <span className="skills__level">Avanzado</span>
                                     </div>
                                 </div>
 

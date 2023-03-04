@@ -90,6 +90,12 @@ export default function ServiceLayout(){
                                     Diseño relacional de Base de datos.
                                 </p>
                             </li>
+                            <li className="services__modal-item">
+                                <i className='bx bx-check services__modal-icon' ></i>
+                                <p className="services__modal-info">
+                                    Diseño no relacional de Base de datos.
+                                </p>
+                            </li>
 
                             <li className="services__modal-item">
                                 <i className='bx bx-check services__modal-icon' ></i>

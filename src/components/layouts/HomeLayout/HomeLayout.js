@@ -1,5 +1,4 @@
 import './HomeLayout.css'
-// import imgPerfil from '../../../assets/img/perfil.png'
 import AnimationReveal from './AnimationReveal'
 
 

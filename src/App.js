@@ -11,7 +11,7 @@ import SkillLayout from './components/layouts/SkillLayout/SkillLayout';
 
 
 function App() {
-  
+
   return (
     <div className="App">
       {/* <!--=============== HEADER ===============--> */}
@@ -20,16 +20,16 @@ function App() {
         <main className="main">
             {/* <!--=============== HOME ===============--> */}
             <HomeLayout></HomeLayout>
-            {/* <!--=============== ABOUT ===============--> */}            
+            {/* <!--=============== ABOUT ===============--> */}
             <AboutLayout></AboutLayout>
             {/* <!--=============== SKILLS ===============--> */}
             <SkillLayout></SkillLayout>
             {/* <!--=============== SERVICES ===============--> */}
-            <ServiceLayout></ServiceLayout>            
+            <ServiceLayout></ServiceLayout>
             {/* <!--=============== WORK ===============--> */}
             <WorkLayout></WorkLayout>
-            {/* <!--=============== TESTIMONIALS ===============--> */}            
-            {/* <TestimonialLayout></TestimonialLayout> */}
+            {/* <!--=============== TESTIMONIALS ===============--> */}
+            <TestimonialLayout></TestimonialLayout>
             {/* <!--=============== CONTACT ===============--> */}
             <ContactLayout></ContactLayout>
         </main>
