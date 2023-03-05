@@ -5,13 +5,13 @@ export default function AboutLayout(){
                 <span className="section__subtitle">Presentación</span>
                 <h2 className="section__title">Acerca de mí</h2>
                 <div className="about__container container grid">
-                    <img src="assets/img/logo.png" alt="" className="about__img"/>
+                    <img src="assets/img/me2.jpg" alt="" className="about__img"/>
                     <div className="about__data">
                         <div className="about__info">
                             <div className="about__box">
                                 <i className='bx bx-award about__icon'></i>
                                 <h3 className="about__title">Experiencia</h3>
-                                <span className="about__subtitle">4 Años Trabajando</span>
+                                <span className="about__subtitle">5 Años Trabajando</span>
                             </div>
 
                             <div className="about__box">
@@ -28,7 +28,7 @@ export default function AboutLayout(){
                         </div>
                         <p className="about__description">
                             Desarrollador Full Stack, He diseñado y construido sistemas de información con requisitos específicos de los clientes,
-                            Poseo 4 años de experiencia en desarrollo y soporte de software.
+                            Poseo 5 años de experiencia en desarrollo y soporte de software.
                         </p>
                         <a href="#contact" className="button">Contactame</a>
                     </div>

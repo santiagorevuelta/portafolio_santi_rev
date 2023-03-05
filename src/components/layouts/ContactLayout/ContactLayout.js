@@ -62,7 +62,7 @@ export default function ContactLayout(){
                                 <i className='bx bxl-whatsapp contact__card-icon' ></i>
                                 <h3 className="contact__card-title">Whatsapp</h3>
                                 <span className="contact__card-data">+57 3187260291</span>
-                                <a href="https://api.whatsapp.com/send?phone=573187260291&text=Hello, more information!" target="_blank" className="contact__button" rel="noreferrer">
+                                <a href="https://api.whatsapp.com/send?phone=573187260291&text=Hello!" target="_blank" className="contact__button" rel="noreferrer">
                                     Escribeme <i className='bx bx-right-arrow-alt contact__button-icon' ></i>
                                 </a>
                             </div>

@@ -15,26 +15,26 @@ function App() {
   return (
     <div className="App">
       {/* <!--=============== HEADER ===============--> */}
-        <HeaderLayout></HeaderLayout>
+        <HeaderLayout/>
         {/* <!--=============== MAIN ===============--> */}
         <main className="main">
             {/* <!--=============== HOME ===============--> */}
-            <HomeLayout></HomeLayout>
+            <HomeLayout/>
             {/* <!--=============== ABOUT ===============--> */}
-            <AboutLayout></AboutLayout>
+            <AboutLayout/>
             {/* <!--=============== SKILLS ===============--> */}
-            <SkillLayout></SkillLayout>
+            <SkillLayout/>
             {/* <!--=============== SERVICES ===============--> */}
-            <ServiceLayout></ServiceLayout>
+            <ServiceLayout/>
             {/* <!--=============== WORK ===============--> */}
-            <WorkLayout></WorkLayout>
+            <WorkLayout/>
             {/* <!--=============== TESTIMONIALS ===============--> */}
-            <TestimonialLayout></TestimonialLayout>
+            <TestimonialLayout/>
             {/* <!--=============== CONTACT ===============--> */}
-            <ContactLayout></ContactLayout>
+            <ContactLayout/>
         </main>
         {/* <!--=============== FOOTER ===============--> */}
-        <FooterLayout></FooterLayout>
+        <FooterLayout/>
     </div>
   );
 }
