@@ -13,10 +13,10 @@
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
   */
-  --first-hue: 220;
-  --sat: 100%;
-  --lig: 73%;
-  --second-hue: 219;
+  --first-hue: 130;
+  --sat: 52%;
+  --lig: 35%;
+  --second-hue: 232;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--first-hue), var(--sat), 69%); /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 95%);
@@ -128,8 +128,8 @@ body.light-theme{
   --container-color: #fff;
 }
 
-/*========== 
-    Color changes in some parts of 
+/*==========
+    Color changes in some parts of
     the website, in light theme
 ==========*/
 
@@ -182,7 +182,7 @@ body.light-theme{
   padding: 4.5rem 0 1rem;
 }
 
-.section__title, 
+.section__title,
 .section__subtitle {
   text-align: center;
 }
@@ -250,7 +250,7 @@ body.light-theme{
 .active-link{
   background: linear-gradient(180deg,
               hsla(var(--first-hue), var(--sat), var(--lig), 1),
-              hsla(var(--first-hue), var(--sat), var(--lig), .2)  
+              hsla(var(--first-hue), var(--sat), var(--lig), .2)
             );
   box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), .4);
   color: var(--title-color);
@@ -314,11 +314,11 @@ body.light-theme{
     left: 0;
     right: 0;
     margin: 0 auto;
-  }  
+  }
 }
 
 @media screen and (min-width: 767px) {
-  
+
 }
 
 /* For large devices */

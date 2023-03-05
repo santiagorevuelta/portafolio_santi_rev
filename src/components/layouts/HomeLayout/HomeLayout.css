@@ -31,7 +31,7 @@
 }
 
 .home__img{
-  width: 220px;
+  width: 230px;
   max-width: 120%;
 }
 
@@ -156,7 +156,8 @@
     height: 400px;
   }
   .home__img{
-    width: 220px;
+    width: 300px;
+    max-width: 200%;
   }
   .home__social-link{
     padding: .4rem;
