@@ -13,12 +13,12 @@
         "title": "lorem",
         "description": "lorem",
         "img": "saire",
-        "typeProject": "web",
+        "typeProject": "desing",
         "typeInfoProject": "Info",
         "projectURL": "#work"
     },
     {
-        "key": "SusperApp",
+        "key": "SuperApp",
         "title": "Super App",
         "description": "Aplicación movil",
         "img": "togo",
@@ -29,8 +29,8 @@
     {
         "key": "reportesmed",
         "title": "ReportesMed",
-        "description": "Aplicación movil",
-        "img": "togo",
+        "description": "Reportes Med es la app de la Alcaldía de Medellín que permite a los ciudadanos hacer parte de la gestión de ciudad. A través de esta se pueden reportar casos que se dan en Medellín en diferentes frentes: daños en el alumbrado público y sistema de semaforización; huecos y baches en la malla vial; acumulación de residuos sólidos en las vías; y predios ocupados ilegalmente.",
+        "img": "reportesmed",
         "typeProject": "movil",
         "typeInfoProject": "Info",
         "projectURL": "#work"

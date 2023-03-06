@@ -1,7 +1,7 @@
 import FilterWork from './FilterWork';
 import './WorkLayout.css'
 import CardWork from '../../common/CardWork/CardWork'
-import ProjectData from '../../../Data/projects.json'
+    import ProjectData from '../../../Data/projects.json'
 import ModalWork from './ModalWork'
 import ModalWorkLayout from './ModalWorkLayout'
 export default function WorkLayout(){
@@ -17,7 +17,7 @@ export default function WorkLayout(){
                     <span className="work__item active-work" data-filter='all'>Todos</span>
                     <span className="work__item" data-filter='.web'>Web</span>
                     <span className="work__item" data-filter='.movil'>Movil</span>
-                    {/* <span className="work__item" data-filter='.design'>Diseño</span> */}
+                    <span className="work__item" data-filter='.design'>Diseño</span>
                 </div>
 
                 <div className="work__container container grid">

@@ -27,8 +27,9 @@ export default function AboutLayout(){
                             </div>
                         </div>
                         <p className="about__description">
-                            Desarrollador Full Stack, He diseñado y construido sistemas de información con requisitos específicos de los clientes,
-                            Poseo 5 años de experiencia en desarrollo y soporte de software.
+                            Soy desarrollador de software con 5 años de experiencia en el lenguaje de programación JAVA. También tengo experiencia creación de aplicaciones móviles usando tecnologías como React-native, Desarrollador web con manejo de Html5, Css3, JavaScript, Java, ReactJs, nodeJS, Oracle SQL, PostgreSQL y análisis de sistemas de información.
+                            <br/><br/>
+                            Creación de microservicios en nodeJS y contenidos en Docker publicándose en un servidor Azure.
                         </p>
                         <a href="#contact" className="button">Contactame</a>
                     </div>
