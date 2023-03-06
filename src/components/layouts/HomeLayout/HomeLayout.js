@@ -13,7 +13,7 @@ export default function HomeLayout(){
                         <h1 className="home__name">Santiago Revuelta</h1>
                         <h3 className="home__education">Desarrollador Full Stack</h3>
                         <div className="home__button">
-                            <a download="" href="assets/pdf/HV_Santiago_Revuelta.pdf" className="button button--ghost">
+                            <a download="" href="assets/pdf/SantiagoRevuelta.pdf" className="button button--ghost">
                                 Descargar CV
                             </a>
                             <a href="#about" className="button">Acerca de mí</a>
