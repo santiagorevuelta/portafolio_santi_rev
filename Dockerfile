@@ -11,7 +11,6 @@ COPY package*.json ./
 
 RUN npm install --silent
 
-
 # add app
 COPY . ./
 
