@@ -10,7 +10,7 @@ export default function ContactLayout(){
     const [project, setProject] = useState("");
     const notify = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_santirev', 'template_enirlk4', e.target, 'ptX2eJJVzkGvb0FfF')
+        emailjs.sendForm('service_9jjxkge', 'template_enirlk4', e.target, 'ptX2eJJVzkGvb0FfF')
         .then((result) => {
             toast('Recibí la información, te contactaré pronto!', {
                 position: "top-center",
@@ -62,7 +62,7 @@ export default function ContactLayout(){
                                 <i className='bx bxl-whatsapp contact__card-icon' ></i>
                                 <h3 className="contact__card-title">Whatsapp</h3>
                                 <span className="contact__card-data">+57 3187260291</span>
-                                <a href="https://api.whatsapp.com/send?phone=573187260291&text=Hello!" target="_blank" className="contact__button" rel="noreferrer">
+                                <a href="https://api.whatsapp.com/send?phone=573187260291&text=Hola Santiago!" target="_blank" className="contact__button" rel="noreferrer">
                                     Escribeme <i className='bx bx-right-arrow-alt contact__button-icon' ></i>
                                 </a>
                             </div>

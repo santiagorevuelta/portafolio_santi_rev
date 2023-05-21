@@ -1,30 +1,12 @@
 [
     {
-        "key": "lorem",
-        "title": "lorem",
-        "description": "lorem",
-        "img": "saire",
+        "key": "hamilton",
+        "title": "Pagina de presentación",
+        "description": "Portafolio personal",
+        "img": "hamilton.png",
         "typeProject": "web",
         "typeInfoProject": "Info",
-        "projectURL": "#work"
-    },
-    {
-        "key": "lorem",
-        "title": "lorem",
-        "description": "lorem",
-        "img": "saire",
-        "typeProject": "desing",
-        "typeInfoProject": "Info",
-        "projectURL": "#work"
-    },
-    {
-        "key": "SuperApp",
-        "title": "Super App",
-        "description": "Aplicación movil",
-        "img": "togo",
-        "typeProject": "movil",
-        "typeInfoProject": "Info",
-        "projectURL": "#work"
+        "projectURL": "https://hamilton-tatto.fly.dev/"
     },
     {
         "key": "reportesmed",

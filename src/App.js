@@ -29,7 +29,7 @@ function App() {
             {/* <!--=============== WORK ===============--> */}
             <WorkLayout/>
             {/* <!--=============== TESTIMONIALS ===============--> */}
-            <TestimonialLayout/>
+            {/*<TestimonialLayout/>*/}
             {/* <!--=============== CONTACT ===============--> */}
             <ContactLayout/>
         </main>
