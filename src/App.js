@@ -8,9 +8,15 @@ import TestimonialLayout from './components/layouts/TestimonialLayout/Testimonia
 import ContactLayout from './components/layouts/ContactLayout/ContactLayout';
 import FooterLayout from './components/layouts/FooterLayout/FooterLayout';
 import SkillLayout from './components/layouts/SkillLayout/SkillLayout';
+import Load from "./components/layouts/Load/Load";
+import {useEffect, useState} from "react";
 
 
 function App() {
+    const [load, setLoad] = useState(false);
+    window.cargarLoad = (state)=>{
+        setLoad(state)
+    }
 
   return (
     <div className="App">
@@ -18,6 +24,7 @@ function App() {
         <HeaderLayout/>
         {/* <!--=============== MAIN ===============--> */}
         <main className="main">
+            <Load load={load}/>
             {/* <!--=============== HOME ===============--> */}
             <HomeLayout/>
             {/* <!--=============== ABOUT ===============--> */}

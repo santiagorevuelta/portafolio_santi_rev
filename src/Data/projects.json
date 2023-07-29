@@ -6,15 +6,7 @@
         "img": "hamilton.png",
         "typeProject": "web",
         "typeInfoProject": "Info",
-        "projectURL": "https://hamilton-tatto.fly.dev/"
-    },
-    {
-        "key": "reportesmed",
-        "title": "ReportesMed",
-        "description": "Reportes Med es la app de la Alcaldía de Medellín que permite a los ciudadanos hacer parte de la gestión de ciudad. A través de esta se pueden reportar casos que se dan en Medellín en diferentes frentes: daños en el alumbrado público y sistema de semaforización; huecos y baches en la malla vial; acumulación de residuos sólidos en las vías; y predios ocupados ilegalmente.",
-        "img": "reportesmed",
-        "typeProject": "movil",
-        "typeInfoProject": "Info",
-        "projectURL": "#work"
+        "projectURL": "https://www.hamilton.tatto.serisas.com/",
+        "noOpen": true
     }
 ]

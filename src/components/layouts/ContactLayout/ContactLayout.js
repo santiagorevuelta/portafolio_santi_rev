@@ -3,41 +3,49 @@ import emailjs from 'emailjs-com';
 import { useState } from "react";
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
+import Load from "../Load/Load";
 
 export default function ContactLayout(){
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [project, setProject] = useState("");
+
     const notify = (e) => {
+        window.cargarLoad(true)
         e.preventDefault();
         emailjs.sendForm('service_9jjxkge', 'template_enirlk4', e.target, 'ptX2eJJVzkGvb0FfF')
         .then((result) => {
-            toast('Recibí la información, te contactaré pronto!', {
-                position: "top-center",
-                autoClose: 3000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                type:'success',
-                progress: undefined,
+            setName('')
+            setEmail('')
+            setProject('')
+            setTimeout(()=>{
+                toast('Recibí la información, te contactaré pronto!', {
+                    position: "top-center",
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    type:'success',
+                    progress: undefined,
                 });
+                window.cargarLoad(false)
+            },2000)
         }, (error) => {
-            toast('Algo anda mal, contactame por otro medio', {
-                position: "top-center",
-                autoClose: 3000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                type:'error',
-                progress: undefined,
+            setTimeout(()=>{
+                toast('Algo anda mal, contactame por otro medio', {
+                    position: "top-center",
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    type:'error',
+                    progress: undefined,
                 });
+                window.cargarLoad(false)
+            },2000)
         });
-        setName('')
-        setEmail('')
-        setProject('')
-
     }
     return (
         <section className="contact section" id="contact">
@@ -61,7 +69,7 @@ export default function ContactLayout(){
                             <div className="contact__card">
                                 <i className='bx bxl-whatsapp contact__card-icon' ></i>
                                 <h3 className="contact__card-title">Whatsapp</h3>
-                                <span className="contact__card-data">+57 3187260291</span>
+                                <span className="contact__card-data">+57 318*******</span>
                                 <a href="https://api.whatsapp.com/send?phone=573187260291&text=Hola Santiago!" target="_blank" className="contact__button" rel="noreferrer">
                                     Escribeme <i className='bx bx-right-arrow-alt contact__button-icon' ></i>
                                 </a>
@@ -74,7 +82,7 @@ export default function ContactLayout(){
                         <h3 className="contact__title">Escribeme sobre tu proyecto</h3>
                         <form action="" autoComplete="off" id="form_contact" className="contact__form" onSubmit={notify}>
                             <div className="contact__form-div">
-                                <label htmlFor="" className="contact__form-tag">Nombres</label>
+                                <label htmlFor="" className="contact__form-tag">Nombre</label>
                                 <input name="from_name" id="from_name" type="text" placeholder="Ingresa tu nombre" className="contact__form-input" value={name} required onChange={e => setName(e.target.value)}/>
                             </div>
 
