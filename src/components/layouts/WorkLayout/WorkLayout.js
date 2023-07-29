@@ -1,7 +1,7 @@
 import FilterWork from './FilterWork';
 import './WorkLayout.css'
 import CardWork from '../../common/CardWork/CardWork'
-    import ProjectData from '../../../Data/projects.json'
+import ProjectData from '../../../Data/projects.json'
 import ModalWork from './ModalWork'
 import ModalWorkLayout from './ModalWorkLayout'
 export default function WorkLayout(){

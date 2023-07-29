@@ -1,5 +1,6 @@
 import SwiperTestimonial from './SwiperTestimonial'
 import './TestimonialLayout.css'
+import TestimoniosData from '../../../Data/testimonios.json'
 export default function TestimonialLayout(){
     SwiperTestimonial()
     return (
@@ -9,35 +10,17 @@ export default function TestimonialLayout(){
 
                 <div className="testimonial__container container swiper">
                     <div className="swiper-wrapper">
-                        <div className="testimonial__card swiper-slide">
-                            <img src="assets/img/testimonial1.png" alt="" className="testimonial__img"/>
 
-                            <h3 className="testimonial__name">Armando Rojas</h3>
-                            <p className="testimonial__description">
-                                A really good job, all aspects of the project were
-                                followed step by step and with good results.
-                            </p>
-                        </div>
+                        {TestimoniosData.map((item)=>(
+                            <div className="testimonial__card swiper-slide">
+                                <img src={item.img} alt="" className="testimonial__img"/>
 
-                        <div className="testimonial__card swiper-slide">
-                            <img src="assets/img/testimonial2.png" alt="" className="testimonial__img"/>
-
-                            <h3 className="testimonial__name">Lilian Rojas</h3>
-                            <p className="testimonial__description">
-                                A really good job, all aspects of the project were
-                                followed step by step and with good results.
-                            </p>
-                        </div>
-
-                        <div className="testimonial__card swiper-slide">
-                            <img src="assets/img/testimonial3.png" alt="" className="testimonial__img"/>
-
-                            <h3 className="testimonial__name">Maria Caicedo</h3>
-                            <p className="testimonial__description">
-                                A really good job, all aspects of the project were
-                                followed step by step and with good results.
-                            </p>
-                        </div>
+                                <h3 className="testimonial__name">{item.name}</h3>
+                                <p className="testimonial__description">
+                                    {item.description}
+                                </p>
+                            </div>
+                        ))}
                     </div>
                     <div className="swiper-pagination"></div>
                 </div>
