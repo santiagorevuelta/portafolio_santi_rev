@@ -22,7 +22,7 @@ export default function ServiceLayout(){
 
                         <h3 className="services__modal-title">Diseño de Productos</h3>
                         <p className="services__modal-description">
-                            Servicio con más de 2 años de experiencia.
+                            Servicio con más de 7 años de experiencia.
                             Proporcionando un trabajo de calidad a clientes y empresas.
                         </p>
 

@@ -34,9 +34,9 @@ function App() {
             {/* <!--=============== SERVICES ===============--> */}
             <ServiceLayout/>
             {/* <!--=============== WORK ===============--> */}
-            <WorkLayout/>
+            {/*<WorkLayout/>*/}
             {/* <!--=============== TESTIMONIALS ===============--> */}
-            <TestimonialLayout/>
+            {/*<TestimonialLayout/>*/}
             {/* <!--=============== CONTACT ===============--> */}
             <ContactLayout/>
         </main>
