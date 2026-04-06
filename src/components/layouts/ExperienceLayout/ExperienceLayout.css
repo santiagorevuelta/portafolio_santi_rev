@@ -1,0 +1,65 @@
+.experience__container {
+    row-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.experience__card {
+    background-color: var(--container-color);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255,255,255,0.05);
+    transition: .3s;
+}
+
+.experience__card:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.experience__header {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.experience__icon {
+    font-size: 1.5rem;
+    color: var(--first-color);
+}
+
+.experience__company {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.experience__period {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color);
+}
+
+.experience__role {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 0.5rem;
+    color: var(--title-color);
+}
+
+.experience__description {
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+}
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 992px) {
+    .experience__container {
+        column-gap: 3rem;
+    }
+}
