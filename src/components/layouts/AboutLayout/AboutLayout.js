@@ -13,13 +13,13 @@ export default function AboutLayout(){
                                <div className="about__box">
                                    <i className='bx bx-award about__icon'></i>
                                    <h3 className="about__title">Experiencia</h3>
-                                   <span className="about__subtitle">5 Años Trabajando</span>
+                                   <span className="about__subtitle">6+ Años Trabajando</span>
                                </div>
 
                                <div className="about__box">
                                    <i className='bx bx-briefcase-alt about__icon' ></i>
                                    <h3 className="about__title">Completos</h3>
-                                   <span className="about__subtitle">5 + Proyectos</span>
+                                   <span className="about__subtitle">10 + Proyectos</span>
                                </div>
 
                                <div className="about__box">
@@ -29,9 +29,10 @@ export default function AboutLayout(){
                                </div>
                            </div>
                            <p className="about__description">
-                               Soy desarrollador de software con 5 años de experiencia en el lenguaje de programación JAVA. También tengo experiencia creación de aplicaciones móviles usando tecnologías como React-native, Desarrollador web con manejo de Html5, Css3, JavaScript, Java, ReactJs, nodeJS, Oracle SQL, PostgreSQL y análisis de sistemas de información.
-                               <br/><br/>
-                               Creación de microservicios en nodeJS y contenidos en Docker publicándose en un servidor Azure.
+                               Soy un Desarrollador Full Stack con más de 6 años de trayectoria, apasionado por crear soluciones tecnológicas escalables y de alto impacto. Mi experiencia abarca desde el liderazgo técnico en el desarrollo de billeteras digitales para el sector bancario internacional hasta la implementación de sistemas de información geográfica (SIG) complejos.
+                           </p>
+                           <p className="about__description">
+                               He trabajado en entornos ágiles (Scrum) y bajo estándares de alta calidad, destacando mi capacidad para diseñar arquitecturas limpias y mantenibles. Me especializo en ecosistemas JavaScript/TypeScript (React, Node.js, React Native), Java y bases de datos robustas como PostgreSQL y Oracle. Mi enfoque se centra en optimizar procesos, garantizar la seguridad de la información y ofrecer una experiencia de usuario excepcional, tanto en aplicaciones web como móviles publicadas en App Store y Play Store.
                            </p>
                            <a href="#contact" className="button">Contactame</a>
                        </div>

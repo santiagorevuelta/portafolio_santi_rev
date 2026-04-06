@@ -30,7 +30,7 @@ export default function HeaderLayout(){
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#work" className="nav__link">
+                            <a href="#experience" className="nav__link">
                                 <i className='bx bx-briefcase-alt-2' ></i>
                             </a>
                         </li>
@@ -42,7 +42,7 @@ export default function HeaderLayout(){
                     </ul>
                 </div>
                 {/* <!-- Theme change button --> */}
-                <i className='bx bx-moon change-theme' id="theme-button" onClick={changeTheme()}></i>
+                <i className='bx bx-moon change-theme' id="theme-button" onClick={() => changeTheme()}></i>
             </nav>
         </header>
     )

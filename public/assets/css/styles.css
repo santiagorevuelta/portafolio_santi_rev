@@ -13,18 +13,17 @@
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
   */
-  --first-hue: 261;
-  --sat: 118%;
-  --lig: 64%;
+  --first-hue: 207;
+  --sat: 90%;
+  --lig: 45%;
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-  /*rgb(79 70 229 / 1);*/
-  --first-color-alt: hsl(var(--first-hue), var(--sat), 69%); /* -4% */
-  --title-color: hsl(var(--second-hue), 15%, 95%);
-  --text-color: hsl(var(--second-hue), 8%, 75%);
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 40%);
+  --title-color: hsl(var(--second-hue), 15%, 15%);
+  --text-color: hsl(var(--second-hue), 8%, 35%);
   --text-color-light: hsl(var(--second-hue), 4%, 55%);
-  --body-color: hsl(var(--second-hue), 48%, 8%);
-  --container-color: hsl(var(--second-hue), 32%, 12%);
+  --body-color: hsl(var(--second-hue), 100%, 99%);
+  --container-color: #fff;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -121,12 +120,13 @@ img {
   color: var(--first-color);
 }
 
-/*========== Variables Light theme ==========*/
-body.light-theme{
-  --title-color: hsl(var(--second-hue), 15%, 15%);
-  --text-color: hsl(var(--second-hue), 8%, 35%);
-  --body-color: hsl(var(--second-hue), 100%, 99%);
-  --container-color: #fff;
+/*========== Variables Dark theme ==========*/
+body.dark-theme{
+  --title-color: hsl(var(--second-hue), 15%, 95%);
+  --text-color: hsl(var(--second-hue), 8%, 75%);
+  --body-color: hsl(var(--second-hue), 48%, 8%);
+  --container-color: hsl(var(--second-hue), 32%, 12%);
+  --lig: 61%;
 }
 
 /*==========
@@ -135,31 +135,31 @@ body.light-theme{
 ==========*/
 
 
-.light-theme .nav__menu{
-  background-color: hsl(var(--second-hue), 32%, 90%, .8);
+.dark-theme .nav__menu{
+  background-color: hsl(var(--second-hue), 32%, 16%, .8);
 }
 
-.light-theme .section__subtitle{
-  color: var(--text-color);
+.section__subtitle{
+  color: var(--text-color-light);
 }
 
 
 
 
-.light-theme .button,
-.light-theme .button:hover{
-  color: var(--title-color);
+.button,
+.button:hover{
+  color: #fff;
 }
 
-.light-theme::-webkit-scrollbar{
+::-webkit-scrollbar{
   background-color: hsl(var(--second-hue), 8%, 66%);
 }
 
-.light-theme::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb{
   background-color: hsl(var(--second-hue), 8%, 54%);
 }
 
-.light-theme::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover{
   background-color: hsl(var(--second-hue), 8%, 44%);
 }
 
@@ -226,7 +226,7 @@ body.light-theme{
 .nav__menu{
   position: fixed;
   bottom: 1rem;
-  background-color: hsl(var(--second-hue), 32%, 16%, .8);
+  background-color: hsl(var(--second-hue), 32%, 90%, .8);
   width: 90%;
   border-radius: 4rem;
   padding: 1rem 2.25rem;
@@ -251,9 +251,9 @@ body.light-theme{
 .active-link{
   background: linear-gradient(180deg,
               hsla(var(--first-hue), var(--sat), var(--lig), 1),
-              hsla(var(--first-hue), var(--sat), var(--lig), .2)
+              hsla(var(--first-hue), var(--sat), var(--lig), .1)
             );
-  box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), .4);
+  box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), .3);
   color: var(--title-color);
 }
 
@@ -266,7 +266,7 @@ body.light-theme{
 .button{
   display: inline-block;
   background-color: var(--first-color);
-  color: var(--body-color);
+  color: #fff;
   padding: .75rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
@@ -275,7 +275,7 @@ body.light-theme{
 
 .button:hover{
   background-color: var(--first-color-alt);
-  color: var(--body-color);
+  color: #fff;
 }
 
 .button--ghost{
@@ -285,18 +285,18 @@ body.light-theme{
 }
 
 /*=============== SCROLL BAR ===============*/
-::-webkit-scrollbar{
+.dark-theme::-webkit-scrollbar{
   width: .6rem;
   border-radius: .5rem;
   background-color: hsla(var(--second-hue), 8%, 38%);
 }
 
-::-webkit-scrollbar-thumb{
+.dark-theme::-webkit-scrollbar-thumb{
   background-color: hsl(var(--second-hue), 8%, 26%);
   border-radius: .5rem;
 }
 
-::-webkit-scrollbar-thumb:hover{
+.dark-theme::-webkit-scrollbar-thumb:hover{
   background-color: hsl(var(--second-hue), 8%, 20%);
 }
 

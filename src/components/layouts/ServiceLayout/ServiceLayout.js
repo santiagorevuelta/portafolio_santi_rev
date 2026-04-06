@@ -1,165 +1,133 @@
-import ModalService from './ModalService'
+import React, { useState } from 'react'
 import './ServiceLayout.css'
+
 export default function ServiceLayout(){
+    const [toggleState, setToggleState] = useState(0);
 
-    ModalService()
+    const toggleTab = (index) => {
+        setToggleState(index);
+    }
+
     return (
-        <section className="services section">
-        <span className="section__subtitle">Mi servicio</span>
-        <h2 className="section__title">Lo que ofrezco</h2>
+        <section className="services section" id="services">
+            <span className="section__subtitle">Mi servicio</span>
+            <h2 className="section__title">Lo que ofrezco</h2>
 
-        <div className="services__container container grid">
-            <div className="services__card">
-                <h3 className="services__title">Diseño de <br/> Productos</h3>
+            <div className="services__container container grid">
+                {/* SERVICIO 1 */}
+                <div className={`services__card ${toggleState === 1 ? 'services__card-active' : ''}`} onClick={() => toggleTab(toggleState === 1 ? 0 : 1)}>
+                    <div className="services__card-content">
+                        <i className='bx bx-layout services__icon-card'></i>
+                        <h3 className="services__title">Diseño de <br/> Productos</h3>
+                        
+                        <span className="services__button">
+                            {toggleState === 1 ? 'Ver menos' : 'Ver mas'} <i className={`bx ${toggleState === 1 ? 'bx-up-arrow-alt' : 'bx-right-arrow-alt'}`} ></i>
+                        </span>
+                    </div>
 
-                <span className="services__button">
-                    Ver mas <i className='bx bx-right-arrow-alt services__icon' ></i>
-                </span>
-
-                <div className="services__modal">
-                    <div className="services__modal-content">
-                        <i className='bx bx-x services__modal-close' ></i>
-
-                        <h3 className="services__modal-title">Diseño de Productos</h3>
-                        <p className="services__modal-description">
+                    <div className={`services__info-container ${toggleState === 1 ? 'active-info' : ''}`}>
+                        <p className="services__description">
                             Servicio con más de 7 años de experiencia.
                             Proporcionando un trabajo de calidad a clientes y empresas.
                         </p>
 
-                        <ul className="services__modal-list">
-                            <li className="services__modal-item">
-                                <i className='bx bx-check services__modal-icon' ></i>
-                                <p className="services__modal-info">
-                                    Desarrollo de interfaz de usuario.
-                                </p>
+                        <ul className="services__list">
+                            <li className="services__item">
+                                <i className='bx bx-check services__icon' ></i>
+                                <p className="services__info">Desarrollo de interfaz de usuario.</p>
                             </li>
-
-                            <li className="services__modal-item">
-                                <i className='bx bx-check services__modal-icon' ></i>
-                                <p className="services__modal-info">
-                                    Desarrollo de sistemas de información.
-                                </p>
+                            <li className="services__item">
+                                <i className='bx bx-check services__icon' ></i>
+                                <p className="services__info">Desarrollo de sistemas de información.</p>
                             </li>
-
-                            <li className="services__modal-item">
-                                <i className='bx bx-check services__modal-icon' ></i>
-                                <p className="services__modal-info">
-                                    Desarrollo de paginas web.
-                                </p>
+                            <li className="services__item">
+                                <i className='bx bx-check services__icon' ></i>
+                                <p className="services__info">Desarrollo de paginas web.</p>
                             </li>
-
-                            <li className="services__modal-item">
-                                <i className='bx bx-check services__modal-icon' ></i>
-                                <p className="services__modal-info">
-                                    Interacciones de elementos UX.
-                                </p>
+                            <li className="services__item">
+                                <i className='bx bx-check services__icon' ></i>
+                                <p className="services__info">Interacciones de elementos UX.</p>
                             </li>
-
-                            <li className="services__modal-item">
-                                <i className='bx bx-check services__modal-icon' ></i>
-                                <p className="services__modal-info">
-                                    Diseño de productos.
-                                </p>
+                            <li className="services__item">
+                                <i className='bx bx-check services__icon' ></i>
+                                <p className="services__info">Diseño de productos.</p>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </div>
 
-            <div className="services__card">
-                <h3 className="services__title">Gestión<br/> DB</h3>
+                {/* SERVICIO 2 */}
+                <div className={`services__card ${toggleState === 2 ? 'services__card-active' : ''}`} onClick={() => toggleTab(toggleState === 2 ? 0 : 2)}>
+                    <div className="services__card-content">
+                        <i className='bx bx-data services__icon-card'></i>
+                        <h3 className="services__title">Gestión<br/> DB</h3>
 
-                <span className="services__button">
-                    Ver mas <i className='bx bx-right-arrow-alt services__icon' ></i>
-                </span>
+                        <span className="services__button">
+                            {toggleState === 2 ? 'Ver menos' : 'Ver mas'} <i className={`bx ${toggleState === 2 ? 'bx-up-arrow-alt' : 'bx-right-arrow-alt'}`} ></i>
+                        </span>
+                    </div>
 
-                <div className="services__modal">
-                    <div className="services__modal-content">
-                        <i className='bx bx-x services__modal-close' ></i>
-
-                        <h3 className="services__modal-title">Gestión de Bases de datos</h3>
-                        <p className="services__modal-description">
+                    <div className={`services__info-container ${toggleState === 2 ? 'active-info' : ''}`}>
+                        <p className="services__description">
                             Servicio con más de 3 años de experiencia.
                             Construyendo y administrando bases de datos para diferentes clientes y empresas.
                         </p>
 
-                        <ul className="services__modal-list">
-                            <li className="services__modal-item">
-                                <i className='bx bx-check services__modal-icon' ></i>
-                                <p className="services__modal-info">
-                                    Diseño relacional de Base de datos.
-                                </p>
+                        <ul className="services__list">
+                            <li className="services__item">
+                                <i className='bx bx-check services__icon' ></i>
+                                <p className="services__info">Diseño relacional de Base de datos.</p>
                             </li>
-                            <li className="services__modal-item">
-                                <i className='bx bx-check services__modal-icon' ></i>
-                                <p className="services__modal-info">
-                                    Diseño no relacional de Base de datos.
-                                </p>
+                            <li className="services__item">
+                                <i className='bx bx-check services__icon' ></i>
+                                <p className="services__info">Diseño no relacional de Base de datos.</p>
                             </li>
-
-                            <li className="services__modal-item">
-                                <i className='bx bx-check services__modal-icon' ></i>
-                                <p className="services__modal-info">
-                                    Procedimientos modelados eficientemente.
-                                </p>
+                            <li className="services__item">
+                                <i className='bx bx-check services__icon' ></i>
+                                <p className="services__info">Procedimientos modelados eficientemente.</p>
                             </li>
-
                         </ul>
                     </div>
                 </div>
-            </div>
 
-            <div className="services__card">
-                <h3 className="services__title">Sistemas <br/> Integrados</h3>
+                {/* SERVICIO 3 */}
+                <div className={`services__card ${toggleState === 3 ? 'services__card-active' : ''}`} onClick={() => toggleTab(toggleState === 3 ? 0 : 3)}>
+                    <div className="services__card-content">
+                        <i className='bx bx-code-alt services__icon-card'></i>
+                        <h3 className="services__title">Sistemas <br/> Integrados</h3>
 
-                <span className="services__button">
-                    Ver mas <i className='bx bx-right-arrow-alt services__icon' ></i>
-                </span>
+                        <span className="services__button">
+                            {toggleState === 3 ? 'Ver menos' : 'Ver mas'} <i className={`bx ${toggleState === 3 ? 'bx-up-arrow-alt' : 'bx-right-arrow-alt'}`} ></i>
+                        </span>
+                    </div>
 
-                <div className="services__modal">
-                    <div className="services__modal-content">
-                        <i className='bx bx-x services__modal-close' ></i>
-
-                        <h3 className="services__modal-title">Sistemas Integrados</h3>
-                        <p className="services__modal-description">
+                    <div className={`services__info-container ${toggleState === 3 ? 'active-info' : ''}`}>
+                        <p className="services__description">
                             Servicio con más de 1 años de experiencia.
                             Integrando multiples API y servicios.
                         </p>
 
-                        <ul className="services__modal-list">
-                            <li className="services__modal-item">
-                                <i className='bx bx-check services__modal-icon' ></i>
-                                <p className="services__modal-info">
-                                    Servicios de autenticación.
-                                </p>
+                        <ul className="services__list">
+                            <li className="services__item">
+                                <i className='bx bx-check services__icon' ></i>
+                                <p className="services__info">Servicios de autenticación.</p>
                             </li>
-
-                            <li className="services__modal-item">
-                                <i className='bx bx-check services__modal-icon' ></i>
-                                <p className="services__modal-info">
-                                    Servicios AZURE.
-                                </p>
+                            <li className="services__item">
+                                <i className='bx bx-check services__icon' ></i>
+                                <p className="services__info">Servicios AZURE.</p>
                             </li>
-
-                            <li className="services__modal-item">
-                                <i className='bx bx-check services__modal-icon' ></i>
-                                <p className="services__modal-info">
-                                    API de mapas integrados.
-                                </p>
+                            <li className="services__item">
+                                <i className='bx bx-check services__icon' ></i>
+                                <p className="services__info">API de mapas integrados.</p>
                             </li>
-
-                            <li className="services__modal-item">
-                                <i className='bx bx-check services__modal-icon' ></i>
-                                <p className="services__modal-info">
-                                    DOCKER
-                                </p>
+                            <li className="services__item">
+                                <i className='bx bx-check services__icon' ></i>
+                                <p className="services__info">DOCKER</p>
                             </li>
-
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     )
 }

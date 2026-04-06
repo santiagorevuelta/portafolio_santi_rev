@@ -13,7 +13,7 @@ export default function HomeLayout(){
                         <h1 className="home__name">Santiago Revuelta</h1>
                         <h3 className="home__education">Desarrollador Full Stack</h3>
                         <div className="home__button">
-                            <a download="" href="assets/pdf/SantiagoRevuelta.pdf" className="button button--ghost">
+                            <a download="" href="assets/pdf/Santiago Revuelta.pdf" className="button button--ghost">
                                 Descargar CV
                             </a>
                             <a href="#about" className="button">Acerca de mí</a>
@@ -29,14 +29,11 @@ export default function HomeLayout(){
                         <a href="https://github.com/santiagorevuelta" target="_blank" className="home__social-link" rel="noreferrer">
                             <i className='bx bxl-github' ></i>
                         </a>
-                        {/* <a href="https://www.dribble.com/" target="_blank" className="home__social-link" rel="noreferrer">
-                            <i className='bx bxl-dribbble' ></i>
-                        </a> */}
                     </div>
-                    <a href="#about" className="home__scroll">
-                        <i className='bx bx-mouse home__scroll-icon' ></i>
-                        <span className="home__scroll-name">Desliza abajo</span>
-                    </a>
+                    {/*<a href="#about" className="home__scroll">*/}
+                    {/*    <i className='bx bx-mouse home__scroll-icon' ></i>*/}
+                    {/*    <span className="home__scroll-name">Desliza abajo</span>*/}
+                    {/*</a>*/}
                 </div>
             </section>
     )
