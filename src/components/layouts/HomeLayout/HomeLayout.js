@@ -20,7 +20,7 @@ export default function HomeLayout(){
                         </div>
                     </div>
                     <div className="home__handle">
-                        <img src="assets/img/me.png" alt="" className="home__img"/>
+                        <img src="assets/img/me.png" alt="Santiago Revuelta - Desarrollador Full Stack" className="home__img"/>
                     </div>
                     <div className="home__social">
                         <a href="https://www.linkedin.com/in/santiago-revuelta-rodriguez-8931a41a6/" target="_blank" className="home__social-link" rel="noreferrer">

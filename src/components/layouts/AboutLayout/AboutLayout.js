@@ -3,7 +3,7 @@ export default function AboutLayout(){
     return (
         <section className="about section" id="about">
                 <span className="section__subtitle">Presentación</span>
-                <h2 className="section__title">Acerca de mí</h2>
+                <h2 className="section__title">Sobre Santiago Revuelta - Desarrollador Full Stack</h2>
                 <div className="container">
                     {/*about__container container grid*/}
                     {/*<img src="assets/img/me2.jpg" alt="" className="about__img"/>*/}
