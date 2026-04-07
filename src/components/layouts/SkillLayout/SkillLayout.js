@@ -30,7 +30,7 @@ export default function SkillLayout(){
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
                                         <h3 className="skills__name">React</h3>
-                                        <span className="skills__level">Intermedio</span>
+                                        <span className="skills__level">Avanzado</span>
                                     </div>
                                 </div>
 
@@ -72,7 +72,7 @@ export default function SkillLayout(){
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
                                         <h3 className="skills__name">Tailwind</h3>
-                                        <span className="skills__level">Intermedio</span>
+                                        <span className="skills__level">Avanzado</span>
                                     </div>
                                 </div>
 
@@ -104,7 +104,7 @@ export default function SkillLayout(){
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
                                         <h3 className="skills__name">Node JS</h3>
-                                        <span className="skills__level">Intermedio</span>
+                                        <span className="skills__level">Avanzado</span>
                                     </div>
                                 </div>
 
@@ -155,7 +155,7 @@ export default function SkillLayout(){
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
                                         <h3 className="skills__name">App Stores</h3>
-                                        <span className="skills__level">Avanzado</span>
+                                        <span className="skills__level">Intermedio</span>
                                     </div>
                                 </div>
 
@@ -163,7 +163,7 @@ export default function SkillLayout(){
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
                                         <h3 className="skills__name">GitHub</h3>
-                                        <span className="skills__level">Intermedio</span>
+                                        <span className="skills__level">Avanzado</span>
                                     </div>
                                 </div>
                             </div>

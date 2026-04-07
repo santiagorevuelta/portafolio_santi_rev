@@ -1,9 +1,10 @@
 /*=============== SERVICES ===============*/
 .services__container{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 1.5rem;
     padding-top: 1rem;
     align-items: start;
+    justify-content: center;
 }
 
 .services__card{
@@ -129,14 +130,12 @@
 @media screen and (max-width: 320px) {
     .services__container{
         grid-template-columns: 1fr;
-        justify-content: center;
       }
 }
 /* For medium devices */
 @media screen and (min-width: 576px) {
     .services__container{
         grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
       }
 }
 
