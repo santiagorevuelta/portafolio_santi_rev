@@ -18,8 +18,8 @@ export default function ServiceLayout(){
                 <div className={`services__card ${toggleState === 1 ? 'services__card-active' : ''}`} onClick={() => toggleTab(toggleState === 1 ? 0 : 1)}>
                     <div className="services__card-content">
                         <i className='bx bx-layout services__icon-card'></i>
-                        <h3 className="services__title">Diseño de <br/> Productos</h3>
-                        
+                        <h3 className="services__title">Diseño de Productos</h3>
+
                         <span className="services__button">
                             {toggleState === 1 ? 'Ver menos' : 'Ver mas'} <i className={`bx ${toggleState === 1 ? 'bx-up-arrow-alt' : 'bx-right-arrow-alt'}`} ></i>
                         </span>
@@ -60,7 +60,7 @@ export default function ServiceLayout(){
                 <div className={`services__card ${toggleState === 2 ? 'services__card-active' : ''}`} onClick={() => toggleTab(toggleState === 2 ? 0 : 2)}>
                     <div className="services__card-content">
                         <i className='bx bx-data services__icon-card'></i>
-                        <h3 className="services__title">Gestión<br/> DB</h3>
+                        <h3 className="services__title">Gestión DB</h3>
 
                         <span className="services__button">
                             {toggleState === 2 ? 'Ver menos' : 'Ver mas'} <i className={`bx ${toggleState === 2 ? 'bx-up-arrow-alt' : 'bx-right-arrow-alt'}`} ></i>
@@ -94,7 +94,7 @@ export default function ServiceLayout(){
                 <div className={`services__card ${toggleState === 3 ? 'services__card-active' : ''}`} onClick={() => toggleTab(toggleState === 3 ? 0 : 3)}>
                     <div className="services__card-content">
                         <i className='bx bx-code-alt services__icon-card'></i>
-                        <h3 className="services__title">Sistemas <br/> Integrados</h3>
+                        <h3 className="services__title">Sistemas Integrados</h3>
 
                         <span className="services__button">
                             {toggleState === 3 ? 'Ver menos' : 'Ver mas'} <i className={`bx ${toggleState === 3 ? 'bx-up-arrow-alt' : 'bx-right-arrow-alt'}`} ></i>
