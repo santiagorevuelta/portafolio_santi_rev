@@ -18,6 +18,9 @@ RUN npm run build
 RUN rm -rf ./node_modules
 RUN npm install -g serve
 
+# Copy serve configuration
+COPY serve.json ./build/serve.json
+
 # new
 EXPOSE 8080
-CMD ["serve", "-s", "build", "-p", "8080"]
+CMD ["serve", "-c", "serve.json", "-s", "build", "-p", "8080"]
