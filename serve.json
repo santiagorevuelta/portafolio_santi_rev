@@ -1,31 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "!/static/**",
-      "destination": "/index.html"
-    },
-    {
-      "source": "!/privacy-policy.html",
-      "destination": "/privacy-policy.html"
-    },
-    {
-      "source": "!/terms-of-service.html",
-      "destination": "/terms-of-service.html"
-    },
-    {
-      "source": "!/user-agreement.html",
-      "destination": "/user-agreement.html"
-    },
-    {
-      "source": "!/legal-documents.html",
-      "destination": "/legal-documents.html"
-    },
-    {
-      "source": "!/legal-docs-config.json",
-      "destination": "/legal-docs-config.json"
-    },
-    {
-      "source": "!/assets/**",
+      "source": "^/(?!privacy-policy|terms-of-service|user-agreement|legal-documents|legal-docs-config|static|assets|favicon|manifest).*",
       "destination": "/index.html"
     }
   ]
