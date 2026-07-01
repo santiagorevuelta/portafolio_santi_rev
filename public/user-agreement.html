@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acuerdo de Usuario - SmartWatch App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        h2 {
+            color: #764ba2;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        h3 {
+            color: #667eea;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background-color: #e7f3ff;
+            padding: 20px;
+            border-left: 4px solid #2196F3;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .consent-box {
+            background-color: #f5f5f5;
+            padding: 25px;
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .consent-box h3 {
+            color: #764ba2;
+            margin-top: 0;
+        }
+
+        .checkbox-item {
+            margin: 15px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 4px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .signature-block {
+            margin-top: 40px;
+            padding: 20px;
+            border-top: 2px solid #ddd;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+
+        .signature-item {
+            margin-bottom: 20px;
+        }
+
+        .signature-item label {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .signature-item input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← Volver al portafolio</a>
+
+        <header>
+            <h1>Acuerdo de Usuario</h1>
+            <p class="last-updated">Fecha: 1 de julio de 2026</p>
+        </header>
+
+        <section>
+            <h2>Preámbulo</h2>
+            <p>
+                Este Acuerdo de Usuario ("Acuerdo") es un documento legal vinculante entre el usuario
+                ("Usted") y SmartWatch App ("Nosotros", "Nuestra", "La Aplicación"). Establece los
+                términos específicos bajo los cuales usted acepta usar nuestra aplicación de monitoreo
+                de salud y bienestar.
+            </p>
+            <p>
+                Al descargar e instalar la Aplicación, o al crear una cuenta, usted reconoce que ha
+                leído, entendido y acepta estar vinculado por este Acuerdo, junto con nuestra
+                Política de Privacidad y Términos de Servicio.
+            </p>
+        </section>
+
+        <section>
+            <h2>1. Definiciones</h2>
+            <ul>
+                <li><strong>Aplicación:</strong> La aplicación SmartWatch App en todas sus versiones</li>
+                <li><strong>Datos Personales:</strong> Cualquier información que lo identifique o pertenezca a usted</li>
+                <li><strong>Datos de Salud:</strong> Información médica, biométrica y de bienestar recopilada</li>
+                <li><strong>Dispositivo:</strong> El smartwatch o dispositivo portátil compatible</li>
+                <li><strong>Servicio:</strong> Toda la funcionalidad proporcionada por la Aplicación</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. Reconocimientos del Usuario</h2>
+            <p>Al aceptar este Acuerdo, usted reconoce que:</p>
+
+            <h3>2.1 Comprensión de Limitaciones Médicas</h3>
+            <ul>
+                <li>Entiende que la Aplicación proporciona información educativa, no diagnósticos médicos</li>
+                <li>Acepta que los datos no pueden reemplazar evaluaciones médicas profesionales</li>
+                <li>Reconoce las limitaciones de precisión de los sensores portátiles</li>
+                <li>Acepta consultar profesionales de salud ante cambios significativos en métricas</li>
+            </ul>
+
+            <h3>2.2 Responsabilidad Personal</h3>
+            <ul>
+                <li>Es responsable de cualquier acción tomada basada en datos de la Aplicación</li>
+                <li>Acepta mantener confidenciales sus credenciales de cuenta</li>
+                <li>Acepta ser el único responsable de su cuenta</li>
+            </ul>
+
+            <h3>2.3 Cumplimiento Legal</h3>
+            <ul>
+                <li>Tiene edad legal para usar servicios digitales</li>
+                <li>No está bajo prohibición de usar servicios electrónicos</li>
+                <li>Usará la Aplicación de conformidad con todas las leyes aplicables</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Obligaciones del Usuario</h2>
+
+            <h3>3.1 Información Veraz</h3>
+            <p>
+                Usted se compromete a proporcionar información precisa, honesta y actualizada durante
+                el registro y uso de la Aplicación. Esto incluye:
+            </p>
+            <ul>
+                <li>Datos personales básicos (nombre, edad, correo)</li>
+                <li>Información de perfil de salud (peso, altura, género)</li>
+                <li>Historial médico relevante</li>
+                <li>Condiciones de salud o medicamentos que puedan afectar lecturas</li>
+            </ul>
+
+            <h3>3.2 Información de Contacto</h3>
+            <p>
+                Mantiene la responsabilidad de:
+            </p>
+            <ul>
+                <li>Proporcionar un correo electrónico válido y activo</li>
+                <li>Actualizar su información cuando cambie</li>
+                <li>Responder a comunicaciones importantes de nuestra parte</li>
+                <li>Mantener seguras sus credenciales de acceso</li>
+            </ul>
+
+            <h3>3.3 Uso Aceptable</h3>
+            <p>Acepta utilizar la Aplicación solo para:</p>
+            <ul>
+                <li>Monitoreo personal de salud y bienestar</li>
+                <li>Propósitos educativos</li>
+                <li>Seguimiento de fitness y actividad</li>
+                <li>Compartir información con profesionales médicos (cuando autoriza)</li>
+            </ul>
+
+            <div class="highlight">
+                Prohíbe: acceso no autorizado, ingeniería inversa, distribución no licenciada,
+                o uso comercial sin consentimiento.
+            </div>
+        </section>
+
+        <section>
+            <h2>4. Consentimiento Informado para Recopilación de Datos</h2>
+
+            <h3>4.1 Datos de Salud Sensibles</h3>
+            <p>
+                Por este medio, usted da consentimiento informado para que la Aplicación recopile,
+                procese y almacene:
+            </p>
+            <ul>
+                <li>Frecuencia cardíaca y variabilidad</li>
+                <li>Niveles de oxígeno en sangre</li>
+                <li>Patrones y calidad de sueño</li>
+                <li>Datos de estrés y bienestar emocional</li>
+                <li>Información de actividad física</li>
+                <li>Datos de ciclo menstrual (si corresponde)</li>
+            </ul>
+
+            <h3>4.2 Limitaciones de Uso</h3>
+            <p>
+                Estos datos sensibles serán utilizados SOLO para:
+            </p>
+            <ul>
+                <li>Proporcionar análisis personalizados</li>
+                <li>Mejorar características de la Aplicación</li>
+                <li>Investigación de salud (con consentimiento adicional)</li>
+            </ul>
+            <p>
+                NO serán compartidos con terceros sin su consentimiento explícito adicional.
+            </p>
+
+            <h3>4.3 Derecho a Retirar Consentimiento</h3>
+            <p>
+                Puede revocar este consentimiento en cualquier momento accediendo a configuración de privacidad.
+                La revocación no afectará actividades previas, pero detendrá la recopilación futura.
+            </p>
+        </section>
+
+        <section>
+            <h2>5. Dispositivos Sincronizados</h2>
+
+            <h3>5.1 Compatibilidad</h3>
+            <p>
+                La Aplicación funciona con dispositivos que cumplan requisitos técnicos mínimos.
+                No garantizamos compatibilidad con todos los dispositivos portátiles.
+            </p>
+
+            <h3>5.2 Sincronización de Datos</h3>
+            <p>
+                Usted autoriza la sincronización automática de datos entre su dispositivo portátil
+                y la Aplicación. Esto requiere:
+            </p>
+            <ul>
+                <li>Conexión Bluetooth activa</li>
+                <li>Conexión a Internet periódica</li>
+                <li>Permisos de dispositivo para acceder a sensores</li>
+            </ul>
+
+            <h3>5.3 Precisión de Sensores</h3>
+            <p>
+                Usted reconoce que:
+            </p>
+            <ul>
+                <li>Los sensores pueden tener variaciones de precisión</li>
+                <li>La colocación del dispositivo afecta la precisión</li>
+                <li>Las condiciones ambientales pueden alterar lecturas</li>
+                <li>No somos responsables por imprecisiones de sensores de terceros</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>6. Avisos de Salud y Alertas</h2>
+
+            <h3>6.1 Naturaleza de las Alertas</h3>
+            <p>
+                La Aplicación puede generar alertas basadas en datos anómalos. Estas alertas:
+            </p>
+            <ul>
+                <li>Son avisos informativas, no diagnósticos médicos</li>
+                <li>Pueden tener falsos positivos o negativos</li>
+                <li>Requieren verificación por profesionales médicos</li>
+                <li>NO deben reemplazar atención médica de emergencia</li>
+            </ul>
+
+            <h3>6.2 Emergencias Médicas</h3>
+            <p>
+                Si experimenta síntomas de emergencia médica:
+            </p>
+            <ul>
+                <li>LLAME INMEDIATAMENTE A SERVICIOS DE EMERGENCIA (911 o equivalente)</li>
+                <li>No confíe solo en alertas de la Aplicación</li>
+                <li>Busque atención médica profesional de inmediato</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>7. Integración con Profesionales de Salud</h2>
+
+            <h3>7.1 Compartición Opcional de Datos</h3>
+            <p>
+                Puede autorizar la compartición de datos con profesionales médicos. Esta autorización:
+            </p>
+            <ul>
+                <li>Requiere consentimiento explícito por cada profesional</li>
+                <li>Puede ser revocada en cualquier momento</li>
+                <li>Está sujeta a cumplimiento de normativas de privacidad médica (HIPAA, GDPR)</li>
+            </ul>
+
+            <h3>7.2 Responsabilidad de Profesionales</h3>
+            <p>
+                No somos responsables por:
+            </p>
+            <ul>
+                <li>Cómo profesionales médicos usan sus datos</li>
+                <li>Diagnósticos o tratamientos basados en datos compartidos</li>
+                <li>Cumplimiento de regulaciones por profesionales</li>
+            </ul>
+
+            <h3>7.3 Acuerdos Separados</h3>
+            <p>
+                Las relaciones médico-paciente están reguladas por acuerdos separados.
+                Esta Aplicación facilita la compartición, pero no altera esos acuerdos.
+            </p>
+        </section>
+
+        <section>
+            <h2>8. Limitaciones y Exenciones de Responsabilidad</h2>
+
+            <h3>8.1 Servicio "TAL CUAL"</h3>
+            <p>
+                La Aplicación se proporciona sin garantías de:
+            </p>
+            <ul>
+                <li>Precisión absoluta de datos</li>
+                <li>Disponibilidad continua</li>
+                <li>Funcionalidad sin errores</li>
+                <li>Idoneidad para propósitos específicos</li>
+            </ul>
+
+            <h3>8.2 Interrupción del Servicio</h3>
+            <p>
+                No somos responsables por:
+            </p>
+            <ul>
+                <li>Pérdida de datos debido a interrupciones</li>
+                <li>Mantenimiento no programado</li>
+                <li>Problemas de conectividad del usuario</li>
+                <li>Fallos de sincronización de dispositivos</li>
+            </ul>
+
+            <h3>8.3 Limitación de Daños</h3>
+            <p>
+                Nuestra responsabilidad se limita al máximo permitido por ley. En ningún caso seremos
+                responsables por daños indirectos, incidentales, especiales o consecuentes derivados
+                del uso de la Aplicación.
+            </p>
+        </section>
+
+        <section>
+            <h2>9. Términos de Suscripción</h2>
+
+            <h3>9.1 Versiones Gratuita y Premium</h3>
+            <p>
+                La Aplicación puede ofrecer:
+            </p>
+            <ul>
+                <li><strong>Versión Gratuita:</strong> Acceso limitado a características básicas</li>
+                <li><strong>Versión Premium:</strong> Acceso completo mediante suscripción</li>
+            </ul>
+
+            <h3>9.2 Renovación Automática</h3>
+            <p>
+                Las suscripciones se renuevan automáticamente. Usted puede:
+            </p>
+            <ul>
+                <li>Cancelar cualquier tiempo en configuración</li>
+                <li>Solicitar reembolso dentro de 7 días de compra</li>
+                <li>Cambiar planes en cualquier momento</li>
+            </ul>
+
+            <h3>9.3 Cambios de Precio</h3>
+            <p>
+                Podemos cambiar precios con 30 días de aviso. Cambios se aplicarán al siguiente período de facturación.
+            </p>
+        </section>
+
+        <section>
+            <h2>10. Conservación y Eliminación de Datos</h2>
+
+            <h3>10.1 Período de Retención</h3>
+            <p>
+                Retenemos datos mientras su cuenta esté activa. Después de la eliminación de cuenta:
+            </p>
+            <ul>
+                <li>Datos personales se eliminan en 30 días</li>
+                <li>Datos anonimizados pueden retenerse para investigación</li>
+                <li>Datos se conservan si requerido por ley</li>
+            </ul>
+
+            <h3>10.2 Eliminación de Cuenta</h3>
+            <p>
+                Puede solicitar eliminar su cuenta en cualquier momento. Se perderá permanentemente:
+            </p>
+            <ul>
+                <li>Todos los datos personales</li>
+                <li>Historial de salud</li>
+                <li>Configuración y preferencias</li>
+                <li>Acceso a Premium (sin reembolso prorratedo)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>11. Modificación de Términos</h2>
+            <p>
+                Nos reservamos el derecho de modificar este Acuerdo. Los cambios serán notificados:
+            </p>
+            <ul>
+                <li>A través de la Aplicación</li>
+                <li>Por correo electrónico</li>
+                <li>En sitio web publicado</li>
+            </ul>
+            <p>
+                El uso continuado después de cambios constituye aceptación. Los cambios significativos
+                tendrán período de gracia de 30 días.
+            </p>
+        </section>
+
+        <section>
+            <h2>12. Vigencia</h2>
+            <p>
+                Este Acuerdo entra en vigor cuando:
+            </p>
+            <ul>
+                <li>Descarga la Aplicación, Y</li>
+                <li>Acepta explícitamente durante el proceso de instalación/registro</li>
+            </ul>
+            <p>
+                Continúa mientras use la Aplicación, incluso después de desinstalación.
+                Podemos terminar el Acuerdo o su acceso si viola sus términos.
+            </p>
+        </section>
+
+        <section>
+            <h2>13. Contacto y Soporte</h2>
+            <p>
+                Para preguntas sobre este Acuerdo:
+            </p>
+            <ul>
+                <li><strong>Email:</strong> support@smartwatchapp.com</li>
+                <li><strong>Centro de Ayuda:</strong> help.smartwatchapp.com</li>
+                <li><strong>Soporte Urgente:</strong> +34 91 XXX XXXX</li>
+            </ul>
+        </section>
+
+        <div class="consent-box">
+            <h3>Confirmación de Aceptación</h3>
+            <p>
+                <strong>Al usar SmartWatch App, usted confirma que:</strong>
+            </p>
+            <div class="checkbox-item">
+                ✓ Ha leído completamente este Acuerdo
+            </div>
+            <div class="checkbox-item">
+                ✓ Entiende sus términos y consecuencias
+            </div>
+            <div class="checkbox-item">
+                ✓ Acepta estar vinculado legalmente por estos términos
+            </div>
+            <div class="checkbox-item">
+                ✓ Reconoce las limitaciones médicas de la Aplicación
+            </div>
+            <div class="checkbox-item">
+                ✓ Autoriza la recopilación de datos de salud como se describe
+            </div>
+            <div class="checkbox-item">
+                ✓ Acepta no usar la Aplicación para violaciones de ley
+            </div>
+        </div>
+
+        <section class="signature-block">
+            <h2>Firmas y Consentimiento</h2>
+            <p>
+                Este Acuerdo es electrónico. Al hacer clic en "Acepto" durante la instalación,
+                usted proporciona una firma electrónica vinculante.
+            </p>
+
+            <div class="signature-item">
+                <label for="user-name">Nombre Completo (para referencia):</label>
+                <input type="text" id="user-name" placeholder="Su nombre completo">
+            </div>
+
+            <div class="signature-item">
+                <label for="user-email">Correo Electrónico:</label>
+                <input type="email" id="user-email" placeholder="su.email@ejemplo.com">
+            </div>
+
+            <div class="signature-item">
+                <label for="agreement-date">Fecha de Aceptación:</label>
+                <input type="date" id="agreement-date" value="2026-07-01">
+            </div>
+
+            <p style="margin-top: 20px; font-size: 0.9em; color: #666;">
+                <strong>Nota Legal:</strong> Esta firma electrónica tiene validez legal equivalente
+                a una firma manuscrita bajo leyes de España y la UE.
+            </p>
+        </section>
+
+        <div class="footer">
+            <p>&copy; 2026 SmartWatch App. Todos los derechos reservados.</p>
+            <p>Documentos relacionados: <a href="/privacy-policy.html" style="color: #667eea;">Política de Privacidad</a> |
+            <a href="/terms-of-service.html" style="color: #667eea;">Términos de Servicio</a></p>
+        </div>
+    </div>
+</body>
+</html>

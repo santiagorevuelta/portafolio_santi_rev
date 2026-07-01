@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentos Legales - SmartWatch App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .documents-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .document-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .document-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .document-card h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        .document-card p {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+
+        .document-card .url {
+            background-color: #f5f5f5;
+            padding: 12px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85em;
+            color: #333;
+            word-break: break-all;
+        }
+
+        .btn-access {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.3s;
+        }
+
+        .btn-access:hover {
+            opacity: 0.9;
+        }
+
+        .info-section {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .info-section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+
+        .info-section h3 {
+            color: #764ba2;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .info-section ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        .info-section li {
+            margin-bottom: 8px;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .code-block {
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            overflow-x: auto;
+        }
+
+        .highlight-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <a href="/" class="back-link">← Volver al portafolio</a>
+
+    <header>
+        <h1>📋 Documentos Legales</h1>
+        <p class="subtitle">SmartWatch App - Centro de Cumplimiento Normativo</p>
+    </header>
+
+    <div class="container">
+        <div class="documents-grid">
+            <div class="document-card">
+                <h2>🔒 Política de Privacidad</h2>
+                <p>
+                    Información completa sobre cómo recopilamos, usamos y protegemos sus datos personales
+                    y datos de salud.
+                </p>
+                <div class="url">/privacy-policy.html</div>
+                <a href="/privacy-policy.html" class="btn-access">Leer Documento</a>
+            </div>
+
+            <div class="document-card">
+                <h2>⚖️ Términos de Servicio</h2>
+                <p>
+                    Términos y condiciones generales que rigen el uso de la aplicación SmartWatch App
+                    y sus servicios.
+                </p>
+                <div class="url">/terms-of-service.html</div>
+                <a href="/terms-of-service.html" class="btn-access">Leer Documento</a>
+            </div>
+
+            <div class="document-card">
+                <h2>✍️ Acuerdo de Usuario</h2>
+                <p>
+                    Acuerdo específico que detalla reconocimientos, obligaciones y consentimiento del usuario
+                    para el uso de datos de salud.
+                </p>
+                <div class="url">/user-agreement.html</div>
+                <a href="/user-agreement.html" class="btn-access">Leer Documento</a>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>📖 Guía de Documentos</h2>
+
+            <h3>🔒 Política de Privacidad</h3>
+            <p>
+                <strong>Contenido:</strong> Describe qué datos recopilamos (salud, dispositivo, ubicación, cuenta),
+                cómo los usamos, con quién los compartimos y cómo los protegemos.
+            </p>
+            <p>
+                <strong>Secciones principales:</strong>
+            </p>
+            <ul>
+                <li>Introducción y compromiso de privacidad</li>
+                <li>Tipos de información recopilada</li>
+                <li>Uso de datos y análisis</li>
+                <li>Compartición de datos con terceros</li>
+                <li>Medidas de seguridad y encriptación</li>
+                <li>Derechos del usuario (GDPR, CCPA)</li>
+                <li>Contacto para solicitudes de privacidad</li>
+            </ul>
+
+            <h3>⚖️ Términos de Servicio</h3>
+            <p>
+                <strong>Contenido:</strong> Define los términos generales bajo los cuales se proporciona el servicio,
+                limitaciones de responsabilidad y aclaraciones médicas.
+            </p>
+            <p>
+                <strong>Secciones principales:</strong>
+            </p>
+            <ul>
+                <li>Aceptación de términos</li>
+                <li>Descripción del servicio</li>
+                <li>Requisitos de dispositivo</li>
+                <li>Gestión de cuenta de usuario</li>
+                <li>Comportamiento aceptable</li>
+                <li>Limitación de responsabilidad médica</li>
+                <li>Propiedad intelectual</li>
+                <li>Resolución de disputas</li>
+            </ul>
+
+            <h3>✍️ Acuerdo de Usuario</h3>
+            <p>
+                <strong>Contenido:</strong> Documento vinculante que requiere reconocimiento explícito de limitaciones
+                médicas y consentimiento para recopilación de datos de salud.
+            </p>
+            <p>
+                <strong>Secciones principales:</strong>
+            </p>
+            <ul>
+                <li>Definiciones y preámbulo</li>
+                <li>Reconocimientos del usuario</li>
+                <li>Obligaciones y responsabilidades</li>
+                <li>Consentimiento para recopilación de datos de salud</li>
+                <li>Advertencias médicas y emergencias</li>
+                <li>Integración con profesionales</li>
+                <li>Limitaciones de responsabilidad</li>
+                <li>Términos de suscripción</li>
+                <li>Firma electrónica vinculante</li>
+            </ul>
+        </div>
+
+        <div class="info-section">
+            <h2>🔗 Cómo Usar Estos Documentos en Tu Portafolio</h2>
+
+            <h3>Opción 1: Enlaces Directos</h3>
+            <p>Puedes referenciar los documentos directamente en tu portfolio HTML:</p>
+            <div class="code-block">
+&lt;a href="/privacy-policy.html" target="_blank"&gt;
+    Política de Privacidad
+&lt;/a&gt;
+
+&lt;a href="/terms-of-service.html" target="_blank"&gt;
+    Términos de Servicio
+&lt;/a&gt;
+
+&lt;a href="/user-agreement.html" target="_blank"&gt;
+    Acuerdo de Usuario
+&lt;/a&gt;
+            </div>
+
+            <h3>Opción 2: Sección en Footer</h3>
+            <p>Agregar a la sección de footer de tu sitio:</p>
+            <div class="code-block">
+&lt;footer&gt;
+    &lt;div&gt;
+        &lt;a href="/privacy-policy.html"&gt;Política de Privacidad&lt;/a&gt; |
+        &lt;a href="/terms-of-service.html"&gt;Términos de Servicio&lt;/a&gt; |
+        &lt;a href="/user-agreement.html"&gt;Acuerdo de Usuario&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/footer&gt;
+            </div>
+
+            <h3>Opción 3: Landing Page Separada</h3>
+            <p>
+                Crea una página de "Cumplimiento Normativo" que enlace a todos los documentos
+                (similar a esta página).
+            </p>
+
+            <div class="highlight-box">
+                <strong>Recomendación:</strong> Agregar los enlaces en el footer de tu portafolio principal
+                es la práctica estándar en industria. Los usuarios saben buscar estos documentos allí.
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>📋 Resumen Técnico para Desarrolladores</h2>
+
+            <h3>Estructura de Archivos</h3>
+            <div class="code-block">
+/public/
+├── privacy-policy.html
+├── terms-of-service.html
+├── user-agreement.html
+└── legal-documents.html (esta página)
+            </div>
+
+            <h3>URLs Disponibles</h3>
+            <ul>
+                <li><strong>/privacy-policy.html</strong> - Política de Privacidad</li>
+                <li><strong>/terms-of-service.html</strong> - Términos de Servicio</li>
+                <li><strong>/user-agreement.html</strong> - Acuerdo de Usuario</li>
+                <li><strong>/legal-documents.html</strong> - Hub de documentos (esta página)</li>
+            </ul>
+
+            <h3>Ventajas de Este Enfoque</h3>
+            <ul>
+                <li>✓ No modifica la estructura React existente</li>
+                <li>✓ URLs accesibles directamente sin routing complejo</li>
+                <li>✓ Fácil de mantener y actualizar</li>
+                <li>✓ SEO friendly (archivos HTML estáticos)</li>
+                <li>✓ Compatible con todos los navegadores</li>
+                <li>✓ Carga rápida sin dependencias externas</li>
+            </ul>
+
+            <h3>Próximos Pasos (Opcional)</h3>
+            <ul>
+                <li>Agregar enlaces en el footer de tu portafolio principal</li>
+                <li>Traducir documentos a otros idiomas si es necesario</li>
+                <li>Crear versiones PDF descargables</li>
+                <li>Implementar firma digital (si se requiere para versión oficial)</li>
+                <li>Agregar historial de versiones con fechas</li>
+            </ul>
+        </div>
+
+        <div class="info-section">
+            <h2>📞 Contacto y Soporte</h2>
+            <p>En los documentos encontrarás contactos para diferentes asuntos:</p>
+            <ul>
+                <li><strong>privacy@smartwatchapp.com</strong> - Solicitudes de privacidad</li>
+                <li><strong>legal@smartwatchapp.com</strong> - Asuntos legales</li>
+                <li><strong>support@smartwatchapp.com</strong> - Soporte general</li>
+                <li><strong>disputes@smartwatchapp.com</strong> - Resolución de disputas</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 SmartWatch App - Documentos Legales</p>
+            <p>Documentos disponibles en: <strong>/privacy-policy.html</strong> | <strong>/terms-of-service.html</strong> | <strong>/user-agreement.html</strong></p>
+        </footer>
+    </div>
+</body>
+</html>

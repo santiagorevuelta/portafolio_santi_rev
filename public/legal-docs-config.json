@@ -1,0 +1,170 @@
+{
+  "app": {
+    "name": "SmartWatch App",
+    "version": "1.0.0",
+    "category": "Health & Wellness"
+  },
+  "legal_documents": {
+    "privacy_policy": {
+      "name": "Política de Privacidad",
+      "description": "Información sobre cómo recopilamos, usamos y protegemos datos personales",
+      "url": "/privacy-policy.html",
+      "lang": "es",
+      "last_updated": "2026-07-01",
+      "icon": "🔒",
+      "sections": [
+        "Introducción",
+        "Información Recopilada",
+        "Uso de Datos",
+        "Compartición de Datos",
+        "Seguridad",
+        "Derechos del Usuario",
+        "Cookies",
+        "Privacidad de Menores",
+        "Cambios a la Política",
+        "Contacto"
+      ]
+    },
+    "terms_of_service": {
+      "name": "Términos de Servicio",
+      "description": "Términos y condiciones generales del uso de la aplicación",
+      "url": "/terms-of-service.html",
+      "lang": "es",
+      "last_updated": "2026-07-01",
+      "icon": "⚖️",
+      "sections": [
+        "Aceptación de Términos",
+        "Descripción del Servicio",
+        "Requisitos de Acceso",
+        "Cuenta de Usuario",
+        "Comportamiento del Usuario",
+        "Limitación de Responsabilidad",
+        "Descargo de Responsabilidad Legal",
+        "Propiedad Intelectual",
+        "Datos de Terceros",
+        "Enlaces Externos",
+        "Modificación o Terminación",
+        "Compensación",
+        "Ley Aplicable",
+        "Resolución de Disputas",
+        "Disposiciones Varias",
+        "Contacto"
+      ]
+    },
+    "user_agreement": {
+      "name": "Acuerdo de Usuario",
+      "description": "Acuerdo vinculante con reconocimiento y consentimiento informado",
+      "url": "/user-agreement.html",
+      "lang": "es",
+      "last_updated": "2026-07-01",
+      "icon": "✍️",
+      "sections": [
+        "Preámbulo",
+        "Definiciones",
+        "Reconocimientos del Usuario",
+        "Obligaciones del Usuario",
+        "Consentimiento para Recopilación de Datos",
+        "Dispositivos Sincronizados",
+        "Avisos de Salud y Alertas",
+        "Integración con Profesionales",
+        "Limitaciones y Exenciones",
+        "Términos de Suscripción",
+        "Conservación y Eliminación de Datos",
+        "Modificación de Términos",
+        "Vigencia",
+        "Contacto y Soporte",
+        "Confirmación de Aceptación"
+      ]
+    },
+    "legal_hub": {
+      "name": "Centro de Documentos Legales",
+      "description": "Hub central con acceso a todos los documentos legales",
+      "url": "/legal-documents.html",
+      "lang": "es",
+      "last_updated": "2026-07-01",
+      "icon": "📋"
+    }
+  },
+  "data_collection": {
+    "health_metrics": [
+      "Frecuencia cardíaca",
+      "Oxígeno en sangre (SpO2)",
+      "Patrones de sueño",
+      "Niveles de estrés",
+      "Presión arterial",
+      "Temperatura corporal",
+      "Ciclos menstruales"
+    ],
+    "device_info": [
+      "Identificador único del dispositivo",
+      "Versión del firmware",
+      "Información de batería",
+      "Datos de conectividad"
+    ],
+    "location_data": [
+      "Coordenadas GPS",
+      "Historial de ubicaciones",
+      "Zonas de interés"
+    ],
+    "account_info": [
+      "Nombre y correo electrónico",
+      "Contraseña (encriptada)",
+      "Datos de perfil",
+      "Foto de perfil"
+    ]
+  },
+  "security_measures": {
+    "encryption": "End-to-end para datos sensibles",
+    "connection": "HTTPS/TLS seguro",
+    "authentication": "Autenticación de dos factores disponible",
+    "audits": "Auditorías de seguridad regulares",
+    "storage": "Almacenamiento seguro protegido"
+  },
+  "contact_info": {
+    "privacy": {
+      "email": "privacy@smartwatchapp.com",
+      "purpose": "Solicitudes de privacidad y GDPR"
+    },
+    "legal": {
+      "email": "legal@smartwatchapp.com",
+      "purpose": "Asuntos legales y términos"
+    },
+    "support": {
+      "email": "support@smartwatchapp.com",
+      "purpose": "Soporte general y consultas"
+    },
+    "disputes": {
+      "email": "disputes@smartwatchapp.com",
+      "purpose": "Resolución de disputas"
+    },
+    "address": "Avenida Tecnológica 123, Madrid, España",
+    "phone": "+34 91 XXX XXXX"
+  },
+  "requirements": {
+    "age_minimum": 13,
+    "parental_consent_age": "13-18",
+    "platforms": {
+      "ios": "12.0 o superior",
+      "android": "6.0 o superior",
+      "wearos": "2.0 o superior"
+    }
+  },
+  "data_retention": {
+    "active_account": "Mientras la cuenta esté activa",
+    "after_deletion": "30 días para datos personales",
+    "legal_requirements": "Según lo requerido por ley"
+  },
+  "integration_instructions": {
+    "footer_links": {
+      "description": "Agregar enlaces en el footer del sitio",
+      "html_example": "<a href='/privacy-policy.html'>Política de Privacidad</a> | <a href='/terms-of-service.html'>Términos de Servicio</a> | <a href='/user-agreement.html'>Acuerdo de Usuario</a>"
+    },
+    "react_component": {
+      "description": "Componente React para mostrar enlaces",
+      "example": "import LegalLinks from './components/LegalLinks'"
+    },
+    "direct_links": {
+      "description": "Enlazar directamente desde cualquier lugar"
+    }
+  }
+}
