@@ -32,11 +32,12 @@ const products = [
         tags: ['Voz IA', 'Twilio', 'ElevenLabs', 'CRM'],
     },
     {
-        key: 'seriasses',
-        name: 'Seriasses',
+        key: 'Seriaccess',
+        name: 'Seriaccess',
         pitch: 'Sistema de control de ingreso y salida de personal con lector de huella. Registro biométrico confiable, sin planillas ni suplantación.',
         img: 'seriasses.svg',
         status: 'En producción',
+        url: 'https://seriaccess.fly.dev/',
         features: [
             'Registro de entradas y salidas con huella digital',
             'Identificación biométrica en segundos',
