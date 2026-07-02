@@ -18,6 +18,7 @@ const services = [
         ],
         result: 'Hasta 80% de las consultas resueltas sin intervención humana',
         cta: 'Quiero mi bot con IA',
+        waText: 'Hola Santiago! Quiero un bot con IA para mi negocio.',
     },
     {
         id: 2,
@@ -33,6 +34,7 @@ const services = [
         ],
         result: 'Productos usados por más de 200.000 usuarios',
         cta: 'Cotizar mi proyecto',
+        waText: 'Hola Santiago! Quiero cotizar un proyecto web o una app.',
     },
     {
         id: 3,
@@ -48,6 +50,7 @@ const services = [
         ],
         result: 'Sistemas bancarios y SIG en producción por años',
         cta: 'Hablemos de tu sistema',
+        waText: 'Hola Santiago! Necesito ayuda con el backend o la base de datos de mi sistema.',
     },
     {
         id: 4,
@@ -63,6 +66,7 @@ const services = [
         ],
         result: 'Cero trabajo manual copiando datos entre sistemas',
         cta: 'Integrar mis sistemas',
+        waText: 'Hola Santiago! Quiero integrar y automatizar mis sistemas.',
     },
 ]
 
@@ -123,12 +127,14 @@ export default function ServiceLayout(){
                             </p>
 
                             <a
-                                href="#contact"
+                                href={`https://wa.me/573187260291?text=${encodeURIComponent(service.waText)}`}
+                                target="_blank"
+                                rel="noreferrer"
                                 className="services__cta"
                                 onClick={(e) => e.stopPropagation()}
-                                aria-label={`${service.cta} - ir al formulario de contacto`}
+                                aria-label={`${service.cta} - escribir por WhatsApp`}
                             >
-                                {service.cta} <i className='bx bx-right-arrow-alt'></i>
+                                <i className='bx bxl-whatsapp' aria-hidden="true"></i> {service.cta}
                             </a>
                         </div>
                     </div>

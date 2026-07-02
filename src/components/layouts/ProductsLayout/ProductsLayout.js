@@ -113,7 +113,14 @@ export default function ProductsLayout(){
 
             <div className="products__cta-wrapper">
                 <p className="products__cta-text">¿Quieres un sistema así funcionando en tu negocio?</p>
-                <a href="#contact" className="button">Hablemos de tu idea</a>
+                <a
+                    href="https://wa.me/573187260291?text=%C2%A1Hola%20Santiago%21%20Vi%20tu%20portafolio%20y%20me%20interesa%20un%20software%20para%20mi%20negocio."
+                    target="_blank"
+                    rel="noreferrer"
+                    className="button products__cta-button"
+                >
+                    <i className='bx bxl-whatsapp' aria-hidden="true"></i> Hablemos por WhatsApp
+                </a>
             </div>
         </section>
     )
