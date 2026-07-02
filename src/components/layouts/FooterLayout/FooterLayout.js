@@ -5,8 +5,8 @@ export default function FooterLayout(){
             <div className="footer__container container">
                 <div className="footer__content">
                     <div className="footer__brand">
-                        <h1 className="footer__title">Santi.Rev</h1>
-                        <img src="assets/img/logo_black.png" alt="" className="footer__logo"/>
+                        <h2 className="footer__title">Santi.Rev</h2>
+                        <img src="assets/img/logo_black.png" alt="Logo de Santi.Rev" className="footer__logo" loading="lazy"/>
                     </div>
 
                     <ul className="footer__list">
@@ -22,14 +22,14 @@ export default function FooterLayout(){
                     </ul>
 
                     <ul className="footer__social">
-                        <a href="https://web.facebook.com/Santi.rev.r" target="_blank" rel="noreferrer" className="footer__social-link">
-                            <i className='bx bxl-facebook' ></i>
+                        <a href="https://web.facebook.com/Santi.rev.r" target="_blank" rel="noreferrer" className="footer__social-link" aria-label="Facebook de Santi.Rev">
+                            <i className='bx bxl-facebook' aria-hidden="true"></i>
                         </a>
-                        <a href="https://www.instagram.com/santi.rev/" target="_blank" rel="noreferrer" className="footer__social-link">
-                            <i className='bx bxl-instagram' ></i>
+                        <a href="https://www.instagram.com/santi.rev/" target="_blank" rel="noreferrer" className="footer__social-link" aria-label="Instagram de Santi.Rev">
+                            <i className='bx bxl-instagram' aria-hidden="true"></i>
                         </a>
-                        <a href="https://twitter.com/SantiRev_" target="_blank" rel="noreferrer" className="footer__social-link">
-                            <i className='bx bxl-twitter' ></i>
+                        <a href="https://twitter.com/SantiRev_" target="_blank" rel="noreferrer" className="footer__social-link" aria-label="Twitter de Santi.Rev">
+                            <i className='bx bxl-twitter' aria-hidden="true"></i>
                         </a>
                     </ul>
                 </div>

@@ -20,14 +20,14 @@ export default function HomeLayout(){
                         </div>
                     </div>
                     <div className="home__handle">
-                        <img src="assets/img/me.png" alt="Santiago Revuelta - Desarrollador Full Stack" className="home__img"/>
+                        <img src="assets/img/me.png" alt="Santiago Revuelta - Desarrollador Full Stack especializado en IA y automatización" className="home__img" fetchPriority="high"/>
                     </div>
                     <div className="home__social">
-                        <a href="https://www.linkedin.com/in/santiago-revuelta-rodriguez-8931a41a6/" target="_blank" className="home__social-link" rel="noreferrer">
-                            <i className='bx bxl-linkedin-square' ></i>
+                        <a href="https://www.linkedin.com/in/santiago-revuelta-rodriguez-8931a41a6/" target="_blank" className="home__social-link" rel="noreferrer" aria-label="Perfil de LinkedIn de Santiago Revuelta">
+                            <i className='bx bxl-linkedin-square' aria-hidden="true"></i>
                         </a>
-                        <a href="https://github.com/santiagorevuelta" target="_blank" className="home__social-link" rel="noreferrer">
-                            <i className='bx bxl-github' ></i>
+                        <a href="https://github.com/santiagorevuelta" target="_blank" className="home__social-link" rel="noreferrer" aria-label="Perfil de GitHub de Santiago Revuelta">
+                            <i className='bx bxl-github' aria-hidden="true"></i>
                         </a>
                     </div>
                     {/*<a href="#about" className="home__scroll">*/}

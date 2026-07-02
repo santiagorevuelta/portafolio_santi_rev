@@ -13,12 +13,30 @@ export default function WorkLayout(){
                 <span className="section__subtitle">Mi Portafolio</span>
                 <h2 className="section__title">Trabajos recientes</h2>
 
-                <div className="work__filters">
-                    <span className="work__item active-work" data-filter='all'>Todos</span>
-                    <span className="work__item" data-filter='.ia'>IA & Bots</span>
-                    <span className="work__item" data-filter='.web'>Web</span>
-                    <span className="work__item" data-filter='.movil'>Movil</span>
-                    <span className="work__item" data-filter='.design'>Diseño</span>
+                <div className="work__filters" role="group" aria-label="Filtrar proyectos por categoría">
+                    {[
+                        { filter: 'all', label: 'Todos' },
+                        { filter: '.ia', label: 'IA & Bots' },
+                        { filter: '.web', label: 'Web' },
+                        { filter: '.movil', label: 'Movil' },
+                        { filter: '.design', label: 'Diseño' },
+                    ].map(({ filter, label }) => (
+                        <span
+                            key={filter}
+                            className={`work__item ${filter === 'all' ? 'active-work' : ''}`}
+                            data-filter={filter}
+                            role="button"
+                            tabIndex={0}
+                            onKeyDown={(e) => {
+                                if (e.key === 'Enter' || e.key === ' ') {
+                                    e.preventDefault()
+                                    e.currentTarget.click()
+                                }
+                            }}
+                        >
+                            {label}
+                        </span>
+                    ))}
                 </div>
 
                 <div className="work__container container grid">

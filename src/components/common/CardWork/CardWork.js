@@ -4,9 +4,15 @@ export default function CardWork({title, typeProject, typeInfoProject, projectUR
     const classCard = `work__card mix ${typeProject}`
     return(
         <div className={classCard}>
-            <img src={imgRute} alt={title} className="work__img"/>
+            <img src={imgRute} alt={`Proyecto: ${title}`} className="work__img" loading="lazy" width="600" height="400"/>
             <h3 className="work__title">{title}</h3>
-            <a href={projectURL} className="work__button" target={projectURL.includes('http')?'_blank':''}>
+            <a
+                href={projectURL}
+                className="work__button"
+                target={projectURL.includes('http')?'_blank':''}
+                rel={projectURL.includes('http')?'noreferrer':undefined}
+                aria-label={`Ver detalles del proyecto ${title}`}
+            >
                 {typeInfoProject} <i className='bx bx-right-arrow-alt work__icon' ></i>
             </a>
         </div>
