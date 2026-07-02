@@ -1,5 +1,35 @@
 [
     {
+        "key": "wpai-studio",
+        "title": "WP AI Studio · SaaS Chatbots IA",
+        "description": "Plataforma SaaS multi-tenant de chatbots con IA para WhatsApp Business. Bots entrenables con base de conocimiento propia (RAG), respuesta a notas de voz con transcripción y voz sintetizada (STT/TTS), inbox en tiempo real, escalación automática a asesor humano (chat en vivo con notificaciones), tags automáticos y panel de control de consumo. Stack: AdonisJS 6, Next.js 16, PostgreSQL (Neon), n8n como motor de IA con OpenAI, desplegado en Fly.io.",
+        "img": "wpai-studio.svg",
+        "typeProject": "ia",
+        "typeInfoProject": "Info",
+        "projectURL": "https://wpai-studio.fly.dev/",
+        "noOpen": true
+    },
+    {
+        "key": "callbot-ia",
+        "title": "Call Bot · Agente de Voz IA",
+        "description": "Sistema de llamadas salientes con voz conversacional de IA para calificación de leads inmobiliarios. El agente llama, saluda y hace preguntas de calificación (presupuesto, plazo, interés); al colgar analiza la conversación, puntúa la viabilidad del cliente, guarda la transcripción completa, etiqueta el lead automáticamente y envía seguimiento por WhatsApp. Integración nativa Twilio + ElevenLabs Conversational AI con webhooks firmados y recuperación por polling.",
+        "img": "callbot.svg",
+        "typeProject": "ia",
+        "typeInfoProject": "Info",
+        "projectURL": "#",
+        "noOpen": true
+    },
+    {
+        "key": "factubot",
+        "title": "FactuBot · Facturas por WhatsApp",
+        "description": "Bot de WhatsApp que recibe facturas en PDF, extrae el texto, lo estructura con IA (GPT-4) y lo registra automáticamente en Google Sheets; también responde consultas de facturas por nombre. Construido 100% con automatizaciones en n8n sobre un gateway de WhatsApp self-hosted (OpenWA) con Docker.",
+        "img": "factubot.svg",
+        "typeProject": "ia",
+        "typeInfoProject": "Info",
+        "projectURL": "#",
+        "noOpen": true
+    },
+    {
         "key": "hamilton",
         "title": "Pagina de presentación",
         "description": "Portafolio personal",

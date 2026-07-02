@@ -11,7 +11,7 @@ export default function HomeLayout(){
                     <div className="home__data">
                         <span className="home__greeting">Hola, soy</span>
                         <h1 className="home__name">Santiago Revuelta</h1>
-                        <h3 className="home__education">Desarrollador Full Stack</h3>
+                        <h3 className="home__education">Desarrollador Full Stack · IA & Automatizaciones</h3>
                         <div className="home__button">
                             <a download="" href="assets/pdf/Santiago Revuelta.pdf" className="button button--ghost">
                                 Descargar CV

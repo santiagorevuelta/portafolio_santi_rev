@@ -15,6 +15,7 @@ export default function WorkLayout(){
 
                 <div className="work__filters">
                     <span className="work__item active-work" data-filter='all'>Todos</span>
+                    <span className="work__item" data-filter='.ia'>IA & Bots</span>
                     <span className="work__item" data-filter='.web'>Web</span>
                     <span className="work__item" data-filter='.movil'>Movil</span>
                     <span className="work__item" data-filter='.design'>Diseño</span>

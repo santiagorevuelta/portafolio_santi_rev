@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1326"/>
+      <stop offset="100%" stop-color="#052e22"/>
+    </linearGradient>
+    <linearGradient id="brand3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#bg3)"/>
+
+  <!-- Documento factura -->
+  <g>
+    <rect x="90" y="120" width="150" height="200" rx="10" fill="#f8fafc"/>
+    <rect x="108" y="142" width="80" height="10" rx="4" fill="#334155"/>
+    <rect x="108" y="164" width="114" height="6" rx="3" fill="#94a3b8"/>
+    <rect x="108" y="178" width="114" height="6" rx="3" fill="#94a3b8"/>
+    <rect x="108" y="192" width="90" height="6" rx="3" fill="#94a3b8"/>
+    <rect x="108" y="214" width="114" height="1.5" fill="#cbd5e1"/>
+    <rect x="108" y="228" width="60" height="6" rx="3" fill="#64748b"/>
+    <rect x="182" y="228" width="40" height="6" rx="3" fill="#16a34a"/>
+    <rect x="108" y="244" width="60" height="6" rx="3" fill="#64748b"/>
+    <rect x="182" y="244" width="40" height="6" rx="3" fill="#16a34a"/>
+    <rect x="108" y="272" width="114" height="1.5" fill="#cbd5e1"/>
+    <rect x="108" y="286" width="46" height="9" rx="4" fill="#334155"/>
+    <rect x="176" y="286" width="46" height="9" rx="4" fill="#16a34a"/>
+  </g>
+
+  <!-- Flecha de proceso -->
+  <g stroke="url(#brand3)" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M262 220 h 60"/>
+    <path d="M310 205 l 16 15 l -16 15"/>
+  </g>
+
+  <!-- Hoja de cálculo -->
+  <g>
+    <rect x="352" y="140" width="170" height="160" rx="10" fill="#1e2b3b" stroke="#10b981"/>
+    <rect x="352" y="140" width="170" height="34" rx="10" fill="#065f46"/>
+    <text x="372" y="163" font-family="Arial, sans-serif" font-size="14" fill="#a7f3d0" font-weight="bold">Google Sheets</text>
+    <g fill="#334155">
+      <rect x="370" y="188" width="60" height="7" rx="3"/>
+      <rect x="444" y="188" width="60" height="7" rx="3"/>
+      <rect x="370" y="208" width="60" height="7" rx="3"/>
+      <rect x="444" y="208" width="60" height="7" rx="3"/>
+      <rect x="370" y="228" width="60" height="7" rx="3"/>
+      <rect x="444" y="228" width="60" height="7" rx="3"/>
+    </g>
+    <g fill="#4ade80">
+      <rect x="370" y="252" width="60" height="7" rx="3"/>
+      <rect x="444" y="252" width="60" height="7" rx="3"/>
+      <rect x="370" y="272" width="134" height="7" rx="3"/>
+    </g>
+  </g>
+
+  <!-- Título -->
+  <text x="60" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="url(#brand3)">FactuBot WhatsApp</text>
+  <text x="60" y="94" font-family="Arial, sans-serif" font-size="15" fill="#94a3b8">Facturas PDF a datos estructurados con IA</text>
+
+  <!-- Tags -->
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+    <rect x="90" y="340" width="60" height="26" rx="13" fill="#10b98122" stroke="#10b981"/>
+    <text x="103" y="357" fill="#4ade80">n8n</text>
+    <rect x="158" y="340" width="110" height="26" rx="13" fill="#22d3ee22" stroke="#22d3ee"/>
+    <text x="170" y="357" fill="#67e8f9">WhatsApp</text>
+    <rect x="276" y="340" width="120" height="26" rx="13" fill="#4ade8022" stroke="#4ade80"/>
+    <text x="290" y="357" fill="#86efac">IA · GPT-4</text>
+  </g>
+</svg>

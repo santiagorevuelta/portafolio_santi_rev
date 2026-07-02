@@ -22,6 +22,80 @@ export default function SkillLayout(){
                     </div>
 
                     <div className="skills__content">
+                        <h3 className="skills__title">IA & Automatización</h3>
+
+                        <div className="skills__box">
+                            <div className="skills__group">
+                                <div className="skills__data">
+                                    <i className='bx bx-badge-check' ></i>
+                                    <div>
+                                        <h3 className="skills__name">n8n</h3>
+                                        <span className="skills__level">Avanzado</span>
+                                    </div>
+                                </div>
+
+                                <div className="skills__data">
+                                    <i className='bx bx-badge-check' ></i>
+                                    <div>
+                                        <h3 className="skills__name">LLMs (OpenAI)</h3>
+                                        <span className="skills__level">Avanzado</span>
+                                    </div>
+                                </div>
+
+                                <div className="skills__data">
+                                    <i className='bx bx-badge-check' ></i>
+                                    <div>
+                                        <h3 className="skills__name">Chatbots WhatsApp</h3>
+                                        <span className="skills__level">Avanzado</span>
+                                    </div>
+                                </div>
+
+                                <div className="skills__data">
+                                    <i className='bx bx-badge-check' ></i>
+                                    <div>
+                                        <h3 className="skills__name">Prompt Engineering</h3>
+                                        <span className="skills__level">Avanzado</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="skills__group">
+                                <div className="skills__data">
+                                    <i className='bx bx-badge-check' ></i>
+                                    <div>
+                                        <h3 className="skills__name">Agentes de Voz IA</h3>
+                                        <span className="skills__level">Avanzado</span>
+                                    </div>
+                                </div>
+
+                                <div className="skills__data">
+                                    <i className='bx bx-badge-check' ></i>
+                                    <div>
+                                        <h3 className="skills__name">Twilio / ElevenLabs</h3>
+                                        <span className="skills__level">Intermedio</span>
+                                    </div>
+                                </div>
+
+                                <div className="skills__data">
+                                    <i className='bx bx-badge-check' ></i>
+                                    <div>
+                                        <h3 className="skills__name">RAG / Knowledge Base</h3>
+                                        <span className="skills__level">Intermedio</span>
+                                    </div>
+                                </div>
+
+                                <div className="skills__data">
+                                    <i className='bx bx-badge-check' ></i>
+                                    <div>
+                                        <h3 className="skills__name">Automatizaciones</h3>
+                                        <span className="skills__level">Avanzado</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="skills__content">
                         <h3 className="skills__title">Desarrollo Frontend</h3>
 
                         <div className="skills__box">

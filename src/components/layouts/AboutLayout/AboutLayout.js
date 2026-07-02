@@ -34,6 +34,9 @@ export default function AboutLayout(){
                            <p className="about__description">
                                He trabajado en entornos ágiles (Scrum) y bajo estándares de alta calidad, destacando mi capacidad para diseñar arquitecturas limpias y mantenibles. Me especializo en ecosistemas JavaScript/TypeScript (React, Node.js, React Native), Java y bases de datos robustas como PostgreSQL y Oracle. Mi enfoque se centra en optimizar procesos, garantizar la seguridad de la información y ofrecer una experiencia de usuario excepcional, tanto en aplicaciones web como móviles publicadas en App Store y Play Store.
                            </p>
+                           <p className="about__description">
+                               Actualmente me especializo en <strong>IA aplicada y automatización de negocios</strong>: construyo chatbots de WhatsApp con IA que entienden texto y notas de voz, agentes de voz que llaman y califican leads automáticamente (Twilio + ElevenLabs), y flujos de automatización con <strong>n8n</strong> que integran LLMs (OpenAI) con los datos y procesos de cada negocio — desde la conversación con el cliente hasta el CRM, con escalación a asesores humanos y métricas de consumo en tiempo real.
+                           </p>
                            <a href="#contact" className="button">Contactame</a>
                        </div>
                    </div>
