@@ -186,7 +186,7 @@
 
 @media screen and (min-width: 1440px) {
     .products__container{
-        grid-template-columns: repeat(4, 1fr);
-        column-gap: 1.75rem;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
     }
 }

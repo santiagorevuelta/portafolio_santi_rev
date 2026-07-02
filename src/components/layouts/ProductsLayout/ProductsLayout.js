@@ -45,20 +45,7 @@ const products = [
         ],
         tags: ['Biometría', 'Control de acceso', 'Reportes'],
     },
-    {
-        key: 'factubot',
-        name: 'FactuBot',
-        pitch: 'Bot de WhatsApp que recibe facturas en PDF, las lee con IA y las registra solas en Google Sheets. Cero digitación manual.',
-        img: 'factubot.svg',
-        status: 'En producción',
-        features: [
-            'Extracción de datos de facturas PDF con GPT-4',
-            'Registro automático en Google Sheets',
-            'Consultas de facturas por nombre desde el chat',
-            'Construido 100% con automatizaciones n8n',
-        ],
-        tags: ['IA', 'n8n', 'WhatsApp', 'Automatización'],
-    },
+    // FactuBot apagado por ahora — restaurar aquí cuando vuelva a estar activo
 ]
 
 export default function ProductsLayout(){
