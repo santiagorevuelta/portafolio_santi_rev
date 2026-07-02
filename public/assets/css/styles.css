@@ -344,3 +344,16 @@ body.dark-theme{
   height: 400px;
   display: block;
 }
+
+/*=============== PANTALLAS GRANDES: contenedor más ancho ===============*/
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1320px;
+  }
+}

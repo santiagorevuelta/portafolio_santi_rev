@@ -188,3 +188,9 @@
         margin-bottom: .5rem;
       }
 }
+/* Pantallas grandes: 3 proyectos por fila */
+@media screen and (min-width: 1200px) {
+    .work__container{
+        grid-template-columns: repeat(3, max-content);
+    }
+}

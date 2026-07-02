@@ -244,3 +244,11 @@
         padding: 4rem 2rem 2rem;
       }
 }
+
+/* Pantallas grandes: 4 servicios en una fila */
+@media screen and (min-width: 1440px) {
+    .services__container{
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 2rem;
+    }
+}
