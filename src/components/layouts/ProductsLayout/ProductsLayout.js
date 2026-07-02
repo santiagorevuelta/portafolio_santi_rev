@@ -45,7 +45,49 @@ const products = [
         ],
         tags: ['Biometría', 'Control de acceso', 'Reportes'],
     },
+    {
+        key: 'gold-system',
+        name: 'Monitor Oro & Plata',
+        pitch: 'Sistema de cotización en tiempo real de oro y plata para comerciantes colombianos. API central que scrapea múltiples fuentes, convierte a COP/gramo por pureza y alimenta 3 frontends PWA independientes.',
+        img: 'oro.svg',
+        status: 'En producción',
+        features: [
+            'API central con caché, scraping y cron de refresco automático',
+            'Precio en COP/gramo según pureza (8K–24K)',
+            'Fuentes: goldprice.org, Banco de Bogotá, Netdania, Kitco',
+            '3 frontends PWA desplegados en Fly.io',
+        ],
+        tags: ['Next.js', 'TypeScript', 'Playwright', 'Firebase', 'Fly.io'],
+    },
     // FactuBot apagado por ahora — restaurar aquí cuando vuelva a estar activo
+    {
+        key: 'promigas-sunroof',
+        name: 'Sunroof · Promigas',
+        pitch: 'Plataforma geoespacial para gestión y comercialización de predios con potencial solar. Visualiza polígonos en mapa, cruza datos de contratos y registra ventas en tiempo real.',
+        img: 'promigas-sunroof.svg',
+        status: 'En producción',
+        features: [
+            'Mapa interactivo con polígonos disponibles y vendidos',
+            'Vista de detalle cruzada con tabla de contratos',
+            'Botón para registrar venta en tabla intermedia',
+            'Popups configurables con datos del predio',
+        ],
+        tags: ['Leaflet', 'PostGIS', 'Mapas', 'Promigas'],
+    },
+    {
+        key: 'promigas-ordenes',
+        name: 'Órdenes de Campo · Promigas',
+        pitch: 'Sistema integral de gestión de órdenes de trabajo con app móvil para inspectores y backoffice para administradores. Incluye módulo de proveedores y segmentación de data por usuario.',
+        img: 'promigas-ordenes.svg',
+        status: 'En producción',
+        features: [
+            'App móvil para registro de órdenes en campo',
+            'Backoffice web con panel de administración',
+            'Módulo de registro y gestión de proveedores',
+            'Roles diferenciados: inspector / administrador',
+        ],
+        tags: ['App móvil', 'Backoffice', 'Proveedores', 'Promigas'],
+    },
 ]
 
 export default function ProductsLayout(){
@@ -70,9 +112,6 @@ export default function ProductsLayout(){
                                 width="600"
                                 height="400"
                             />
-                            <span className="products__status">
-                                <span className="products__status-dot"></span> {product.status}
-                            </span>
                         </div>
 
                         <div className="products__content">

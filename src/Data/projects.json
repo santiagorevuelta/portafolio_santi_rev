@@ -38,5 +38,55 @@
         "typeInfoProject": "Info",
         "projectURL": "https://www.hamilton-tattoo.com/",
         "noOpen": true
+    },
+    {
+        "key": "promigas-campo",
+        "title": "Promigas · App Recolección de Campo",
+        "description": "Aplicación móvil para la recolección de información en campo para Promigas. Permite a técnicos y operarios registrar datos de inspecciones, novedades y evidencias fotográficas directamente desde dispositivos móviles, sincronizando con el sistema central.",
+        "img": "promigas-campo.svg",
+        "typeProject": "movil",
+        "typeInfoProject": "Info",
+        "projectURL": "#",
+        "noOpen": true
+    },
+    {
+        "key": "promigas-ordenes",
+        "title": "Promigas · Gestión de Órdenes de Campo",
+        "description": "Sistema integral de operaciones de campo con app móvil para inspectores y backoffice web para administradores. Gestiona el ciclo de vida completo de órdenes de trabajo, módulo de registro de proveedores (razón social, NIT, localización por departamento, distribuidora vinculada) y segmentación de la data visible por usuario según su proveedor asignado. Incluye roles diferenciados (inspector / administrador) y trazabilidad de órdenes desde asignación hasta cierre.",
+        "img": "promigas-ordenes.svg",
+        "typeProject": "web",
+        "typeInfoProject": "Info",
+        "projectURL": "#",
+        "noOpen": true
+    },
+    {
+        "key": "promigas-sunroof",
+        "title": "Promigas · Sunroof – Gestión de Predios Solares",
+        "description": "Plataforma web geoespacial para la gestión y comercialización de predios con potencial solar para Promigas S.A. E.S.P. Visualiza polígonos de condominios sobre mapa interactivo (Leaflet + PostGIS), muestra información detallada de cada predio cruzada con la tabla de contratos, y permite marcar polígonos como vendidos registrándolos en una tabla intermedia. Incluye popups configurables, vista de detalle con fallback a 'No disponible' cuando faltan datos, y diferenciación visual de predios disponibles vs. vendidos.",
+        "img": "promigas-sunroof.svg",
+        "typeProject": "web",
+        "typeInfoProject": "Info",
+        "projectURL": "#",
+        "noOpen": true
+    },
+    {
+        "key": "promigas-solar",
+        "title": "Promigas · Monitor Solar con Mapas",
+        "description": "Plataforma web para visualización y análisis del consumo de paneles solares integrada con Leaflet y PostGIS. Geolocaliza instalaciones, monitorea producción energética en tiempo real y consulta históricos sobre un mapa interactivo con capas geoespaciales.",
+        "img": "promigas-solar.svg",
+        "typeProject": "web",
+        "typeInfoProject": "Info",
+        "projectURL": "#",
+        "noOpen": true
+    },
+    {
+        "key": "oro-plata",
+        "title": "Calculadora Precio Oro & Plata",
+        "description": "Aplicación web para cálculo de precios de oro y plata con cotización en tiempo real. Consume APIs de mercados financieros para el precio spot actualizado, convierte entre unidades (gramos, onzas, kilates) y calcula el valor de piezas o lotes al precio de mercado vigente.",
+        "img": "oro.svg",
+        "typeProject": "web",
+        "typeInfoProject": "Info",
+        "projectURL": "#",
+        "noOpen": true
     }
 ]

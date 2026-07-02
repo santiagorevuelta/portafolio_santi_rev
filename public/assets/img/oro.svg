@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bgO" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1326"/>
+      <stop offset="100%" stop-color="#2a2008"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1f5f9"/>
+      <stop offset="50%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="brandO" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#bgO)"/>
+
+  <!-- Lingotes de oro -->
+  <g>
+    <path d="M100 300 l 20 -34 h 84 l 20 34 z" fill="url(#gold)"/>
+    <text x="138" y="292" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#78350f">ORO 24K</text>
+    <path d="M130 258 l 18 -30 h 72 l 18 30 z" fill="url(#gold)"/>
+    <path d="M245 300 l 20 -34 h 84 l 20 34 z" fill="url(#silver)"/>
+    <text x="278" y="292" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e293b">PLATA</text>
+  </g>
+
+  <!-- Gráfica de cotización -->
+  <g>
+    <rect x="392" y="150" width="150" height="170" rx="12" fill="#1e2b3b" stroke="#f59e0b"/>
+    <text x="408" y="178" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Cotización en vivo</text>
+    <polyline points="408,282 428,268 448,274 468,246 488,252 508,222 526,230" stroke="#fbbf24" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="526" cy="230" r="5" fill="#fbbf24"/>
+    <text x="408" y="308" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4ade80">▲ +2.4%</text>
+  </g>
+
+  <!-- Símbolos -->
+  <g font-family="Arial, sans-serif" font-weight="bold">
+    <circle cx="130" cy="150" r="28" fill="none" stroke="url(#gold)" stroke-width="3"/>
+    <text x="114" y="159" font-size="20" fill="#fbbf24">Au</text>
+    <circle cx="205" cy="150" r="28" fill="none" stroke="url(#silver)" stroke-width="3"/>
+    <text x="190" y="159" font-size="20" fill="#cbd5e1">Ag</text>
+  </g>
+
+  <!-- Título -->
+  <text x="60" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="url(#brandO)">Oro &amp; Plata</text>
+  <text x="60" y="94" font-family="Arial, sans-serif" font-size="15" fill="#94a3b8">Calculadora de precios con cotización en tiempo real</text>
+
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+    <rect x="392" y="60" width="130" height="26" rx="13" fill="#fbbf2422" stroke="#fbbf24"/>
+    <text x="404" y="77" fill="#fde68a">Tiempo real</text>
+  </g>
+</svg>

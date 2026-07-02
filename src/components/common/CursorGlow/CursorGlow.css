@@ -1,0 +1,56 @@
+.cursor-glow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+    margin-left: -90px;
+    margin-top: -90px;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle,
+        hsl(210, 100%, 60%, 0.28) 0%,
+        hsl(210, 100%, 60%, 0.12) 40%,
+        transparent 70%
+    );
+    pointer-events: none;
+    z-index: 9999;
+    will-change: transform;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+
+    /* hide on touch-only devices */
+    @media (hover: none) {
+        display: none;
+    }
+}
+
+.cursor-glow__ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 28px;
+    height: 28px;
+    margin-left: -14px;
+    margin-top: -14px;
+    border-radius: 50%;
+    border: 2px solid hsl(210, 100%, 70%, 0.85);
+    animation: cursor-pulse 2.4s ease-out infinite;
+}
+
+@keyframes cursor-pulse {
+    0% {
+        width: 28px;
+        height: 28px;
+        margin-left: -14px;
+        margin-top: -14px;
+        opacity: 0.9;
+    }
+    100% {
+        width: 120px;
+        height: 120px;
+        margin-left: -60px;
+        margin-top: -60px;
+        opacity: 0;
+    }
+}

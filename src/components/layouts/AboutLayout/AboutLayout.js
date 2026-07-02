@@ -3,7 +3,7 @@ export default function AboutLayout(){
     return (
         <section className="about section" id="about">
                 <span className="section__subtitle">Presentación</span>
-                <h2 className="section__title">Sobre Santiago Revuelta - Desarrollador Full Stack</h2>
+                <h2 className="section__title">Sobre Mi</h2>
                 <div className="container">
                     {/*about__container container grid*/}
                     {/*<img src="assets/img/me2.jpg" alt="" className="about__img"/>*/}
@@ -13,7 +13,7 @@ export default function AboutLayout(){
                                <div className="about__box">
                                    <i className='bx bx-award about__icon'></i>
                                    <h3 className="about__title">Experiencia</h3>
-                                   <span className="about__subtitle">6+ Años Trabajando</span>
+                                   <span className="about__subtitle">6+ Años</span>
                                </div>
 
                                <div className="about__box">
