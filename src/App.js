@@ -8,6 +8,7 @@ import TestimonialLayout from './components/layouts/TestimonialLayout/Testimonia
 import ContactLayout from './components/layouts/ContactLayout/ContactLayout';
 import FooterLayout from './components/layouts/FooterLayout/FooterLayout';
 import SkillLayout from './components/layouts/SkillLayout/SkillLayout';
+import ProductsLayout from './components/layouts/ProductsLayout/ProductsLayout';
 import ExperienceLayout from './components/layouts/ExperienceLayout/ExperienceLayout';
 import Load from "./components/layouts/Load/Load";
 import {useEffect, useState} from "react";
@@ -36,6 +37,8 @@ function App() {
             <ExperienceLayout/>
             {/* <!--=============== SERVICES ===============--> */}
             <ServiceLayout/>
+            {/* <!--=============== SOFTWARE / PRODUCTOS ===============--> */}
+            <ProductsLayout/>
             {/* <!--=============== WORK ===============--> */}
             {/*<WorkLayout/>*/}
             {/* <!--=============== TESTIMONIALS ===============--> */}

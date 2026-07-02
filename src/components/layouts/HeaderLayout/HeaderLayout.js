@@ -35,6 +35,11 @@ export default function HeaderLayout(){
                             </a>
                         </li>
                         <li className="nav__item">
+                            <a href="#software" className="nav__link" aria-label="Software y productos">
+                                <i className='bx bx-package'></i>
+                            </a>
+                        </li>
+                        <li className="nav__item">
                             <a href="#contact" className="nav__link">
                                 <i className='bx bx-message-square-detail'></i>
                             </a>
