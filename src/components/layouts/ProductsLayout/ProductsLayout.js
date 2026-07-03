@@ -60,6 +60,21 @@ const products = [
         ],
         tags: ['Next.js', 'TypeScript', 'Playwright', 'Firebase', 'Fly.io'],
     },
+    {
+        key: 'tour360',
+        name: 'Tour360',
+        pitch: 'Recorridos virtuales 360° que venden por ti. Crea, administra y comparte tours virtuales con tus fotografías 360. Ideal para inmobiliarias, hoteles, museos y más.',
+        img: 'tour360.svg',
+        status: 'En producción',
+        url: 'https://tour360-web.fly.dev/',
+        features: [
+            'Visor panorámico 360° interactivo en el navegador',
+            'Crea tours con múltiples escenas desde tus fotos 360',
+            'Panel de administración para gestionar tus recorridos',
+            'Comparte cada tour con un link listo para enviar',
+        ],
+        tags: ['Tours 360°', 'Inmobiliarias', 'Hoteles', 'SaaS'],
+    },
     // FactuBot apagado por ahora — restaurar aquí cuando vuelva a estar activo
     {
         key: 'promigas-sunroof',

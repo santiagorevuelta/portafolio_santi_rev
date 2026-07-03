@@ -3,6 +3,12 @@ import './ExperienceLayout.css';
 
 const experiences = [
     {
+        company: 'Soluciones Apps',
+        role: 'Líder técnico',
+        period: 'Mar 2026 – Actualidad',
+        description: 'Liderazgo técnico de equipos de desarrollo en la construcción de aplicaciones móviles y web. Definición de arquitectura, estándares de código y revisión técnica de entregas. Desarrollo con React Native y React.js, integración de servicios backend y acompañamiento al equipo en buenas prácticas, calidad y despliegue a producción.'
+    },
+    {
         company: 'Sofka TECHNOLOGIES',
         role: 'Desarrollador de software',
         period: 'Sep 2025 – Mar 2026',
