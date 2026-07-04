@@ -3,6 +3,12 @@ import './ExperienceLayout.css';
 
 const experiences = [
     {
+        company: 'SERI S.A.S. — serisas.com',
+        role: 'CEO & Fundador',
+        period: '2024 – Actualidad',
+        description: 'Fundador y director de SERI S.A.S., empresa de desarrollo de software y consultoría en TI. Lidero la estrategia, la relación con clientes y la entrega de soluciones a la medida: aplicaciones web y móviles, chatbots con IA y automatización de procesos de negocio.'
+    },
+    {
         company: 'Soluciones Apps',
         role: 'Líder técnico',
         period: 'Mar 2026 – Actualidad',

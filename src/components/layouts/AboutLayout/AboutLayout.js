@@ -29,7 +29,7 @@ export default function AboutLayout(){
                                </div>
                            </div>
                            <p className="about__description">
-                               Soy un Desarrollador Full Stack con más de 6 años de trayectoria, apasionado por crear soluciones tecnológicas escalables y de alto impacto. Mi experiencia abarca desde el liderazgo técnico en el desarrollo de billeteras digitales para el sector bancario internacional hasta la implementación de sistemas de información geográfica (SIG) complejos.
+                               Soy CEO y fundador de <a href="https://www.serisas.com" target="_blank" rel="noreferrer"><strong>SERI S.A.S.</strong></a>, empresa de desarrollo de software y consultoría TI, y Desarrollador Full Stack con más de 6 años de trayectoria, apasionado por crear soluciones tecnológicas escalables y de alto impacto. Mi experiencia abarca desde el liderazgo técnico en el desarrollo de billeteras digitales para el sector bancario internacional hasta la implementación de sistemas de información geográfica (SIG) complejos.
                            </p>
                            <p className="about__description">
                                He trabajado en entornos ágiles (Scrum) y bajo estándares de alta calidad, destacando mi capacidad para diseñar arquitecturas limpias y mantenibles. Me especializo en ecosistemas JavaScript/TypeScript (React, Node.js, React Native), Java y bases de datos robustas como PostgreSQL y Oracle. Mi enfoque se centra en optimizar procesos, garantizar la seguridad de la información y ofrecer una experiencia de usuario excepcional, tanto en aplicaciones web como móviles publicadas en App Store y Play Store.

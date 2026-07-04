@@ -26,6 +26,16 @@
   margin-bottom: 2.5rem;
 }
 
+.home__company{
+  display: block;
+  margin-top: .25rem;
+  color: var(--title-color);
+}
+
+.home__company a{
+  color: var(--first-color);
+}
+
 .home__name{
   font-size: var(--biggest-font-size);
 }
