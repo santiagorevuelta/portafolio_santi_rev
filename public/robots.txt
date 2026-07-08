@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://santirev.fly.dev/sitemap.xml
+Sitemap: https://santirev.com/sitemap.xml
