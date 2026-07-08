@@ -2,13 +2,14 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 8080;
-const CANONICAL_HOST = 'santirev.com';
+const CANONICAL_HOST = 'www.santirev.com';
 
-// Consolidate SEO: redirect fly.dev / www to https://santirev.com so Google
-// indexes a single canonical site (localhost and internal checks are left alone).
+// Consolidate SEO: redirect the apex (santirev.com) and fly.dev to
+// https://www.santirev.com so Google indexes a single canonical site
+// (localhost and internal checks are left alone).
 app.use((req, res, next) => {
   const host = (req.headers.host || '').toLowerCase().split(':')[0];
-  const isDuplicate = host.endsWith('.fly.dev') || host === `www.${CANONICAL_HOST}`;
+  const isDuplicate = host === 'santirev.com' || host.endsWith('.fly.dev');
   if (isDuplicate) {
     return res.redirect(301, `https://${CANONICAL_HOST}${req.originalUrl}`);
   }
