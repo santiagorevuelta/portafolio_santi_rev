@@ -13,7 +13,7 @@ export default function HomeLayout(){
                         <h1 className="home__name">Santiago Revuelta</h1>
                         <h3 className="home__education">
                             Desarrollador Full Stack · IA & Automatizaciones
-                            <span className="home__company">CEO & Fundador de <a href="https://www.serisas.com" target="_blank" rel="noreferrer">SERI S.A.S.</a></span>
+                            <span className="home__company">Fundador de <a href="https://www.serisas.com" target="_blank" rel="noreferrer">SERI S.A.S.</a></span>
                         </h3>
                         <div className="home__button">
                             <a download="" href="assets/pdf/Santiago Revuelta.pdf" className="button button--ghost">

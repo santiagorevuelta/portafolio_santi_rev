@@ -130,7 +130,7 @@ export default function SkillLayout(){
                                     <i className='bx bx-badge-check' ></i>
                                     <div>
                                         <h3 className="skills__name">Javascript</h3>
-                                        <span className="skills__level">Intermedio</span>
+                                        <span className="skills__level">Avanzado</span>
                                     </div>
                                 </div>
 
